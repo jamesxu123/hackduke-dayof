@@ -8,10 +8,6 @@ import { lighterGrey, acceptedBlue } from 'extensions/colorUtils'
 
 class EventInfo extends React.Component {
 
-  constructor () {
-    super()
-  }
-
   render () {
     return (
       <div>
@@ -42,7 +38,7 @@ class EventInfo extends React.Component {
                 linkText={'HACKDUKE16.SLACK.COM'}
                 url={'https://hackduke16.slack.com'} />
               <AlertBubble firstText={'Need mentorship during the event?'}
-                secondText={'Direct message '} 
+                secondText={'Direct message '}
                 boldText={'@mentorbot'}
                 thirdText={' on Slack to pair up with a mentor!'} />
               <EventInfoSection header={'HARDWARE'}

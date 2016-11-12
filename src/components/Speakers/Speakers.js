@@ -1,19 +1,15 @@
 import React from 'react'
-import classes from './Speakers.scss'
+// import classes from './Speakers.scss'
 import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
 
 class Speakers extends React.Component {
 
-  constructor () {
-    super()
-  }
-
   render () {
     return (
       <div>
-       <div className={eventInfoClasses.container}>
+        <div className={eventInfoClasses.container}>
           <div className={eventInfoClasses.title}>
-          SPEAKERS
+            SPEAKERS
           </div>
         </div>
       </div>

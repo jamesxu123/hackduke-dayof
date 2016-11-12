@@ -1,12 +1,7 @@
 import React from 'react'
 import classes from './ScheduleElement.scss'
-import { Col, Row } from 'react-bootstrap'
 
 class ScheduleElement extends React.Component {
-
-  constructor () {
-    super()
-  }
 
   static propTypes = {
     startTime: React.PropTypes.string.isRequired,
@@ -18,7 +13,7 @@ class ScheduleElement extends React.Component {
 
   render () {
     return (
-      <div> 
+      <div>
         <div className={classes.container}>
           <div className={classes.timeContainer}>
             <div className={classes.time}> {this.props.startTime} </div>

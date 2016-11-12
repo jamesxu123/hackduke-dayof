@@ -3,11 +3,6 @@ import classes from './AlertBubble.scss'
 
 class AlertBubble extends React.Component {
 
-  constructor () {
-    super()
-  }
-
-
   static propTypes = {
     firstText: React.PropTypes.string.isRequired,
     secondText: React.PropTypes.string,
@@ -23,7 +18,7 @@ class AlertBubble extends React.Component {
             <div className={classes.firstText}>
               {this.props.firstText}
             </div>
-            {this.props.secondText  ? (
+            {this.props.secondText ? (
               <div className={classes.secondText}>
                 {this.props.secondText}
                 <div className={classes.bold}>

@@ -1,9 +1,7 @@
-# HackDuke Portal
-
-[![Build Status](https://travis-ci.org/hack-duke/hackduke-portal.svg?branch=master)](https://travis-ci.org/hack-duke/hackduke-portal)
+# HackDuke Day of
 
 ##Overview
-This project provides a portal for applicants to HackDuke events so that users can see their application status and information as well as make changes to their information if necessary. 
+This project provides information that hackers will use the day of the hackathon, including event info, schedule, maps, travel info, speakers, and data sets.
 
 ## Project Structure
 ```
@@ -38,7 +36,6 @@ This project provides a portal for applicants to HackDuke events so that users c
 ```
 ## Getting started
 ```bash
-$ cp ../hackduke-secrets/.env-hackduke-portal .env  # assuming the projects share the same parent folder
 $ npm install                                       # Install project dependencies
 $ npm run serve                                     # Compile and launch
 ```

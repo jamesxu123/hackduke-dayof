@@ -10,28 +10,21 @@ describe('(Component) NavMenu', () => {
   let _props, _spies, _wrapper
    beforeEach(() => {
     _spies = {}
-    _props = {
-      ...bindActionCreators({
-        logout: (_spies.logout = sinon.spy())
-      }, _spies.dispatch = sinon.spy())
-    }
+    _props = {}
     _wrapper = shallow(<NavMenu {..._props} />)
   })
 
-  it('dispatches logout when clicking on the logout option in the nav menu', () => {
-    _wrapper.find(IndexLink).at(2).simulate('click');
-    _spies.dispatch.should.have.been.called
-    _spies.logout.should.have.been.called
-  })
-
-  it('renders the correct number of IndexLinks (3)', () => {
-    expect(_wrapper.find(IndexLink)).to.have.length(3)
+  it('renders the correct number of IndexLinks (6)', () => {
+    expect(_wrapper.find(IndexLink)).to.have.length(6)
   })
 
   it('clicking IndexLinks sends to correct page', () => {
-    expect(_wrapper.find('[to="/dashboard"]')).to.have.length(1)
-    expect(_wrapper.find('[to="/application"]')).to.have.length(1)
-    expect(_wrapper.find('[to="/login"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/eventinfo"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/schedule"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/maps"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/travelinfo"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/speakers"]')).to.have.length(1)
+    expect(_wrapper.find('[to="/datasets"]')).to.have.length(1)
   })
 
   it('pressing menu button changes state correctly', () => {

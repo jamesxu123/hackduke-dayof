@@ -3,15 +3,11 @@ import classes from './EventInfoSection.scss'
 
 class EventInfoSection extends React.Component {
 
-  constructor () {
-    super()
-  }
-
   static propTypes = {
     header: React.PropTypes.string.isRequired,
     text: React.PropTypes.string.isRequired,
     linkText: React.PropTypes.string.isRequired,
-    url: React.PropTypes.string.isRequired,
+    url: React.PropTypes.string.isRequired
   }
 
   render () {
