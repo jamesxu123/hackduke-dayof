@@ -1,0 +1,100 @@
+@import 'src/styles/base';
+
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(static/fonts/montserrat-light.woff) format('woff'),
+      url(static/fonts/montserrat-light.ttf) format('truetype');
+}
+
+.navMenu {
+	background-image: url('static/dashboard.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	overflow: auto;
+	width: $navMenuWidth;
+  height: 100vh;
+  position: fixed;
+  -webkit-transition: left 0.5s;
+	transition: left 0.5s;
+	z-index: 999;
+}
+
+.menuButton {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	text-shadow: none;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+	overflow: auto;
+  position: fixed;
+	top: 10px;
+  -webkit-transition: left 0.5s;
+	transition: left 0.5s;
+	z-index: 999;
+}
+
+.menuButton:focus {
+	outline: none;
+}
+
+.menuButton img {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.navMenu img {
+	display: block;
+	margin: 0 auto;
+	padding: 75px 0 30px 0;
+	width: 50%;
+}
+
+.menuItem {
+	padding: 10px 0;
+
+}
+
+.linkElement, .linkElement:active, .linkElement:visited, .linkElement:link {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: 'Montserrat Light', sans-serif;
+}
+
+.linkElement:hover {
+	color: #7EC0EE;
+	cursor: pointer;
+}
+
+@media (min-width: $tabletBreakpoint) {
+
+	.navMenu {
+		width: $desktopNavMenuWidth;
+	}
+
+	.navMenu img {
+		padding: 12vh 0 5vh 0;
+	}
+
+	.menuItem {
+		padding: 1.5vh 0;
+	}
+
+	.menuButton {
+		display: none;
+	}
+
+	.linkElement, .linkElement:active, .linkElement:visited, .linkElement:link {
+		font-size: 1.2em;
+	}
+
+}

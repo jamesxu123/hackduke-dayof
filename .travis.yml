@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+node_js:
+- '6'
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+script:
+- npm run lint
+- npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: mo48EPrXKLKRsahNKcLvgdjt295wyyIEugejqWuqx1jf3h67dFCoAdvBbBy3YOB25vezPpJarg9syu9Ms/4DCBdnlurFqwPj3TKXc7BjmU7U6e0B7Mb8TidQdMqjvFefP/iFcBliyk3j3zOmYAXAmYmOPxRXo1bMQNnB3zYWi3S81+Ng4sUfQN3IsWg/c5Kz6/CYKjW0S1JMK/0kc2h9QqV03hdJzhU6y/oTR7GAp4PyFH7K3ULoYWFO7BZCfsYP4FfvPvNe0ZUr/9VBpTVuz5gZPY5k+6bF75cxoqTUrlYTAqdB12v+kn4xswAOBTMRTHIurkf/NWgyHr6AihubL2LtYGasa0VT9kRBIv4F0VF2Vxk3+ObC4epO5q9ei7hQI3XdFesyYrH3XobIYZP+Ju2FZa1XF7t7C/1pv02BMyJ87lxgbEq44Bop2SS/ynHfsGmHEpCw9te5nl5CxF5frBMTktNPF48kQK3MiwTQS4Gsm9ZXtkfvQBVKNIMXLBzw6cZTf9trNEh6BXVyjI/IF5Zk6zEP6KCyNRlV1s2Ok06X8tTQhig5/s8YfPr7OFGO3URpEI1ZGMTcA6muUA7lGbzOnRfXR17zFLdb3P/RO21bd9IoBnnXQq/BsLJyo5RWcUuVu9UmW3QlGTm9VoZ/eRQDo6i5FOBbxAsGwU8VvU4=
+  app: hackduke-portal
+  on:
+    repo: hack-duke/hackduke-portal

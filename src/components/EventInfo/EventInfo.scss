@@ -1,0 +1,16 @@
+@import 'src/styles/base';
+
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.title {
+  letter-spacing: 4px;
+  font-size: 48px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: $headerGray;
+  font-weight: 500;
+}

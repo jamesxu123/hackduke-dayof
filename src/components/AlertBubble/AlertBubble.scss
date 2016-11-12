@@ -1,0 +1,31 @@
+@import 'src/styles/base';
+
+.container {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bubble {
+  background-color: $inputGray;
+  border-radius: 8px;
+}
+
+.firstText {
+  padding: 25px 20px 20px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bold {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.secondText {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

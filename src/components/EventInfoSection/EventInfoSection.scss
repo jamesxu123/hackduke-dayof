@@ -1,0 +1,32 @@
+@import 'src/styles/base';
+
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(static/fonts/montserrat-light.woff) format('woff'),
+      url(static/fonts/montserrat-light.ttf) format('truetype');
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: "Montserrat Light", sans-serif;
+}
+
+.text {
+  font-size: 15px;
+  padding: 20px 50px 20px 50px;
+  font-weight: 400;
+}
+
+.link {
+  font-size: 18px;
+  font-family: "Montserrat Light", sans-serif;
+  color: $acceptedBlue;
+}
