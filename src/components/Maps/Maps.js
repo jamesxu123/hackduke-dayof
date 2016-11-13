@@ -20,9 +20,6 @@ class Maps extends React.Component {
           <div className={eventInfoClasses.title}>
             MAPS
           </div>
-          <div className={classes.blurb}>
-            For help getting around campus, you can check out the maps below
-          </div>
           <Row className={classes.mapRow}>
             <Col md={12}>
               <div className={classes.imageBoxSingle}>

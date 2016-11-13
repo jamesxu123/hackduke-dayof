@@ -1,10 +1,5 @@
 @import 'src/styles/base';
 
-.blurb {
-  padding-top: 3vh;
-  text-align: center;
-}
-
 .mapRow {
   padding-top: 30px;
 }
@@ -19,38 +14,22 @@
 }
 
 .imageBoxLeft {
-  // margin-top: 10px;
-  // margin-bottom: 10px;
-  // padding: 10px;
   padding-left: 3vw;
   padding-top: 5vh;
-  // display: block;
-  // margin: 0 auto;
-  // text-align: center;
 }
 
 .imageBoxRight {
-  // margin-top: 10px;
-  // margin-bottom: 10px;
-  // padding: 10px;
   padding-left: 1vw;
   padding-right:3vw;
   padding-top: 5vh;
-  // display: block;
-  // margin: 0 auto;
-  // text-align: center;
 }
 
 .imageSingle {
-  width: 800px;
+  width: 80%;
   height: auto;
 }
 
 .image {
-  // display: inline-block;
-  width: 400px;
+  width: 100%;
   height: auto;
-  // max-width: 200px;
-  // transform: translateY(-50%);
-  // margin-right: 5px;
 }
