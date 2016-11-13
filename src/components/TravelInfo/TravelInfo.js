@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './TravelInfo.scss'
 import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
 import FAQItem from 'components/FAQItem'
+import cat from 'static/cat.jpg'
 import { Col, Row } from 'react-bootstrap'
 
 class TravelInfo extends React.Component {
@@ -35,6 +36,9 @@ class TravelInfo extends React.Component {
                 linkText={'West Campus bus stop'}
                 afterText={'.'} />
 
+            </Col>
+            <Col md={6}>
+              <img className={classes.image} src={cat} />
             </Col>
           </Row>
         </div>
