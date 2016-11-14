@@ -36,9 +36,35 @@ class TravelInfo extends React.Component {
                 linkText={'West Campus bus stop'}
                 afterText={'.'} />
 
+              <FAQItem title={'Buses'}
+                text={'All buses will arrive at Duke at 9:30 am. For departure times, locations, \
+                and onsite contacts, see the right column.'} />
             </Col>
             <Col md={6}>
-              <img className={classes.image} src={cat} />
+              <FAQItem title={'Georgia Tech bus'}
+                beforeText={'The Georgia Tech coach bus will be leaving from the '}
+                link={'https://goo.gl/maps/7bpgzg4oHW92'}
+                linkText={'Clough Undergrad Learning Commons'}
+                afterText={' at 3:30 am. Our onsite contact is Lekha Surasani 732-543-4382.'}/>
+
+              <FAQItem title={'University of Florida'}
+                beforeText={'We\'ll have a bus leaving from the '}
+                link={'https://goo.gl/maps/pBiG6EiMjrv'}
+                linkText={'UF commuter lot'}
+                afterText={' at 12:30 am. Our onsite contact is Cesar Gonzalez 786-320-2490.'}/>
+
+              <FAQItem title={'University of Maryland'}
+                beforeText={'The UMD bus will be leaving from the '}
+                link={'https://goo.gl/maps/ABamfXwYAZH2'}
+                linkText={'Computer Science Instructional Center'}
+                afterText={' at 4:30 am. Our onsite contact is Ji-Hyuk Bae 240-855-7058.'} />
+
+              <FAQItem title={'Virginia Tech bus'}
+                beforeText={'Our VT bus will leave from the '}
+                link={'https://goo.gl/maps/voqDEqvHfKL2'}
+                linkText={'Newman Library'}
+                afterText={' at 6:00 am. Our onsite contacts are Diana Chang 703-851-3868 \
+                and Kyle Long 980-213-7352.'}/>
             </Col>
           </Row>
         </div>
