@@ -41,7 +41,7 @@ class TravelInfo extends React.Component {
                 For departure times, locations, and onsite contacts, see the right column.'} />
             </Col>
             <Col md={6}>
-              <FAQItem title={'Georgia Tech bus'}
+              <FAQItem title={'Georgia Tech'}
                 beforeText={'The Georgia Tech coach bus will be leaving from the '}
                 link={'https://goo.gl/maps/7bpgzg4oHW92'}
                 linkText={'Clough Undergrad Learning Commons'}
@@ -59,7 +59,7 @@ class TravelInfo extends React.Component {
                 linkText={'Computer Science Instructional Center'}
                 afterText={' at 4:30 am. Our onsite contact is Ji-Hyuk Bae 240-855-7058.'} />
 
-              <FAQItem title={'Virginia Tech bus'}
+              <FAQItem title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
                 link={'https://goo.gl/maps/voqDEqvHfKL2'}
                 linkText={'Newman Library'}
