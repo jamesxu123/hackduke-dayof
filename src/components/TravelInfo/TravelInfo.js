@@ -37,8 +37,8 @@ class TravelInfo extends React.Component {
                 afterText={'.'} />
 
               <FAQItem title={'Buses'}
-                text={'All buses will arrive at Duke at 9:30 am. For departure times, locations, \
-                and onsite contacts, see the right column.'} />
+                text={'All buses will arrive at our hacking area around 9:30 am. \
+                For departure times, locations, and onsite contacts, see the right column.'} />
             </Col>
             <Col md={6}>
               <FAQItem title={'Georgia Tech bus'}
