@@ -1,10 +1,20 @@
 @import 'src/styles/base';
 
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(static/fonts/montserrat-light.woff) format('woff'),
+      url(static/fonts/montserrat-light.ttf) format('truetype');
+}
+
 .section {
   padding-top: 20px;
 }
 
 .sectionText {
+  letter-spacing: 0.2px;
   text-align: left;
   padding-top: 5px;
   color: $aboutBlack;

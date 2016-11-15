@@ -17,7 +17,7 @@ export const FAQItem = (props) => (
 
 function generateTextWithLink (beforeText, link, linkText, afterText) {
   return (
-    <div>
+    <div className={classes.sectionText}>
       {beforeText}
       <a href={link} className={classes.link}>{linkText}</a>
       {afterText}

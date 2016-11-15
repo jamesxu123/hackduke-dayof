@@ -17,18 +17,18 @@ class EventInfo extends React.Component {
           </div>
           <Row>
             <Col md={6}>
-              <DelimitedStackedInfo header={'WIFI PASSWORD'}
-                leftArray={['user: ', 'password: ']}
-                rightArray={['eduroam', 'HELLOHELO']}
+              <DelimitedStackedInfo header={'WIFI INFORMATION'}
+                leftArray={['ssid: ',]}
+                rightArray={['hackduke']}
                 rightColor={acceptedBlue}
                 alignment={'center'} />
               <EventInfoSection header={'DEVPOST'}
                 text={'Submit your hacks to devpost and view prizes!'}
-                linkText={'HACKDUKE16.DEVPOST.COM'}
-                url={'https://hackduke16.devpost.com'} />
+                linkText={'HACKDUKE-2016.DEVPOST.COM'}
+                url={'https://hackduke-2016.devpost.com'} />
               <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
-                leftArray={['(224) 567-0874 ', '(512) 826-2769 ']}
-                rightArray={['| HackDuke Director', '| Duke University Police']}
+                leftArray={['911 ', '919-684-2444 ', '510-396-6225 ', '913-748-1682 ', '254-716-0605 ']}
+                rightArray={['| Duke Police (emergency)', '| Duke Police', '| Yoon Ko', '| Yixin Lin', '| Michelle Chen', '| Harvey Shi']}
                 rightColor={lighterGrey}
                 alignment={'center'} />
             </Col>
@@ -41,10 +41,6 @@ class EventInfo extends React.Component {
                 secondText={'Direct message '}
                 boldText={'@mentorbot'}
                 thirdText={' on Slack to pair up with a mentor!'} />
-              <EventInfoSection header={'HARDWARE'}
-                text={'Log in to the portal to see available hardware and what you\'ve checked out!'}
-                linkText={'MY.HACKDUKE.ORG'}
-                url={'https://my.hackduke.org'} />
             </Col>
           </Row>
         </div>
@@ -52,6 +48,11 @@ class EventInfo extends React.Component {
     )
   }
 }
+
+// <EventInfoSection header={'HARDWARE'}
+//   text={'Log in to the portal to see available hardware and what you\'ve checked out!'}
+//   linkText={'MY.HACKDUKE.ORG'}
+//   url={'https://my.hackduke.org'} />
 
 export default EventInfo
 
