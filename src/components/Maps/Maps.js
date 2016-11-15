@@ -8,7 +8,7 @@ import hudson2 from 'static/maps/hudson2.png'
 import ciemas1 from 'static/maps/CIEMAS1.png'
 import ciemas2 from 'static/maps/CIEMAS2.png'
 import ciemas3 from 'static/maps/CIEMAS3.png'
-import teer from 'static/maps/teer.png'
+import teer from 'static/maps/Teer.png'
 import { Col, Row } from 'react-bootstrap'
 
 class Maps extends React.Component {
