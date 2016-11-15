@@ -23,11 +23,11 @@ class EventInfo extends React.Component {
                 rightColor={acceptedBlue}
                 alignment={'center'} />
               <EventInfoSection header={'DEVPOST'}
-                text={'Submit your hacks to devpost and view prizes!'}
+                text={'View prizes and submit your hacks to devpost by 1:30 PM on Sunday, 11/20!'}
                 linkText={'HACKDUKE-2016.DEVPOST.COM'}
                 url={'https://hackduke-2016.devpost.com'} />
               <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
-                leftArray={['911 ', '919-684-2444 ', '510-396-6225 ', '913-748-1682 ', '254-716-0605 ']}
+                leftArray={['911 ', '919-684-2444 ', '913-748-1682 ', '510-396-6225 ', '254-716-0605 ']}
                 rightArray={['| Duke Police (emergency)', '| Duke Police', '| Yoon Ko', '| Yixin Lin', '| Michelle Chen', '| Harvey Shi']}
                 rightColor={lighterGrey}
                 alignment={'center'} />
@@ -41,6 +41,10 @@ class EventInfo extends React.Component {
                 secondText={'Direct message '}
                 boldText={'@mentorbot'}
                 thirdText={' on Slack to pair up with a mentor!'} />
+              <EventInfoSection header={'HARDWARE'}
+                text={'Check out hardware at Telcom. Click to see what\'s available and what you\'ve checked out.'}
+                linkText={'HARDWARE.HACKDUKE.ORG'}
+                url={'https://hardware.hackduke.org'} />
             </Col>
           </Row>
         </div>
@@ -49,10 +53,6 @@ class EventInfo extends React.Component {
   }
 }
 
-// <EventInfoSection header={'HARDWARE'}
-//   text={'Log in to the portal to see available hardware and what you\'ve checked out!'}
-//   linkText={'MY.HACKDUKE.ORG'}
-//   url={'https://my.hackduke.org'} />
 
 export default EventInfo
 
