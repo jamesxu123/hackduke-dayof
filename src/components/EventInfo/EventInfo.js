@@ -27,7 +27,7 @@ class EventInfo extends React.Component {
                 linkText={'HACKDUKE-2016.DEVPOST.COM'}
                 url={'https://hackduke-2016.devpost.com'} />
               <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
-                leftArray={['911 ', '919-684-2444 ', '913-748-1682 ', '510-396-6225 ', '254-716-0605 ']}
+                leftArray={['911 ', '919-684-2444 ', '240-778-4399 ', '510-730-0186 ', '913-748-1682 ', '254-716-0605 ']}
                 rightArray={['| Duke Police (emergency)', '| Duke Police', '| Yoon Ko', '| Yixin Lin', '| Michelle Chen', '| Harvey Shi']}
                 rightColor={lighterGrey}
                 alignment={'center'} />
@@ -55,4 +55,3 @@ class EventInfo extends React.Component {
 
 
 export default EventInfo
-
