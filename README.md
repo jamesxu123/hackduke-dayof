@@ -1,5 +1,7 @@
 # HackDuke Day of
 
+[![Build Status](https://travis-ci.org/hack-duke/hackduke-dayof.svg?branch=master)](https://travis-ci.org/hack-duke/hackduke-dayof)
+
 ##Overview
 This project provides information that hackers will use the day of the hackathon, including event info, schedule, maps, travel info, speakers, and data sets.
 
