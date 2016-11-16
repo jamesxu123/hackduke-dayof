@@ -18,7 +18,7 @@ class EventInfo extends React.Component {
           <Row>
             <Col md={6}>
               <DelimitedStackedInfo header={'WIFI INFORMATION'}
-                leftArray={['ssid: ',]}
+                leftArray={['ssid: ']}
                 rightArray={['hackduke']}
                 rightColor={acceptedBlue}
                 alignment={'center'} />
@@ -52,6 +52,5 @@ class EventInfo extends React.Component {
     )
   }
 }
-
 
 export default EventInfo
