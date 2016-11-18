@@ -5,7 +5,8 @@ class DatasetElement extends React.Component {
 
   static propTypes = {
     header: React.PropTypes.string.isRequired,
-    blurb: React.PropTypes.string.isRequired
+    blurb: React.PropTypes.string.isRequired,
+    url: React.PropTypes.string.isRequired
   }
 
   render () {
@@ -19,7 +20,7 @@ class DatasetElement extends React.Component {
             <div className={classes.blurb}> {this.props.blurb} </div>
           </div>
           <div className={classes.viewButtonContainer}>
-            <button className={classes.viewButton}>View</button>
+            <a className={classes.viewButtonLink} target='_blank' href={this.props.url}><div className={classes.viewButton}>View</div></a>
           </div>
         </div>
       </div>

@@ -9,18 +9,6 @@
       url(static/fonts/montserrat-light.ttf) format('truetype');
 }
 
-.dateHeader {
-  border-radius: 8px 8px 0px 0px;
-  color: $datePurple;
-  font-family: "Montserrat Light", sans-serif;
-  font-size: 25px;
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: $greyBackground;
-  text-align: center;
-}
-
 .leftColumnContainer {
   width: 400px;
   float: right;
@@ -38,19 +26,34 @@
   padding-top: 20px;
   padding-bottom: 25px;
   border: 2px solid $greyBackground;
+  float: right;
 }
 
+@media (max-width: 1200px) {
 
+  .leftColumnContainer {
+    width: 300px;
+    float: right;
+  }
+
+  .rightColumnContainer {
+    width: 300px;
+    float: left;
+  }
+
+}
 
 @media (max-width: $desktopBreakpoint) {
 
   .leftColumnContainer {
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
     float: none;
   }
 
   .rightColumnContainer {
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
     float: none;
