@@ -16,12 +16,15 @@
 }
 
 .blurbContainer {
-  padding: 25px;
+  padding: 30px;
   text-align: left;
 }
 
 .blurb {
   font-size: 13px;
+  color: $datasetBlurbGrey;
+  letter-spacing: 0.5px;
+  line-height: 18px;
   font-weight: 400;
 }
 
