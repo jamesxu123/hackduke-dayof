@@ -8,7 +8,6 @@ import hudson2 from 'static/maps/Hudson2.png'
 import ciemas1 from 'static/maps/CIEMAS1.png'
 import ciemas2 from 'static/maps/CIEMAS2.png'
 import ciemas3 from 'static/maps/CIEMAS3.png'
-import teer from 'static/maps/Teer.png'
 import { Col, Row } from 'react-bootstrap'
 
 class Maps extends React.Component {
@@ -35,16 +34,8 @@ class Maps extends React.Component {
             </Col>
           </Row>
           <Row className={classes.mapRow}>
-            <Col md={6}>
-              <div className={classes.imageBoxLeft}>
-                <figure>
-                  <img className={classes.image} src={teer} />
-                  <figcaption className={classes.caption}>Teer 2nd floor</figcaption>
-                </figure>
-              </div>
-            </Col>
-            <Col md={6}>
-              <div className={classes.imageBoxRight}>
+            <Col md={12}>
+              <div className={classes.imageBoxSingle}>
                 <figure>
                   <img className={classes.image} src={ciemas1} />
                   <figcaption className={classes.caption}>CIEMAS 1st floor</figcaption>

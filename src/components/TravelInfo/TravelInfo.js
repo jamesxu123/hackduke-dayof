@@ -39,33 +39,31 @@ class TravelInfo extends React.Component {
                 beforeText={'The Georgia Tech coach bus will be leaving from the '}
                 link={'https://goo.gl/maps/7bpgzg4oHW92'}
                 linkText={'Clough Undergrad Learning Commons'}
-                afterText={' at 3:30 AM. Our onsite contact is Lekha Surasani (732-543-4382).'} />
+                afterText={' at 3:30 AM Saturday morning. Our onsite contact is Lekha Surasani (732-543-4382).'} />
             </Col>
             <Col md={6}>
               <FAQItem title={'University of Florida'}
                 beforeText={'We\'ll have a bus leaving from the '}
                 link={'https://goo.gl/maps/pBiG6EiMjrv'}
                 linkText={'UF commuter lot'}
-                afterText={' at 12:30 AM. Our onsite contact is Cesar Gonzalez (786-320-2490).'} />
-
+                afterText={' at 12:30 AM Saturday morning. Our onsite contact is Cesar Gonzalez (786-320-2490).'} />
               <FAQItem title={'University of Maryland'}
                 beforeText={'The UMD bus will be leaving from the '}
                 link={'https://goo.gl/maps/ABamfXwYAZH2'}
                 linkText={'Computer Science Instructional Center'}
-                afterText={' at 4:30 AM. Our onsite contact is Ji-Hyuk Bae (240-855-7058).'} />
+                afterText={' at 4:30 AM Saturday morning. Our onsite contact is Ji-Hyuk Bae (240-855-7058).'} />
 
               <FAQItem title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
                 link={'https://goo.gl/maps/voqDEqvHfKL2'}
                 linkText={'Newman Library'}
-                afterText={' at 6:00 AM. Our onsite contact is Kyle Long (980-213-7352).'} />
+                afterText={' at 6:00 AM Saturday morning. Our onsite contact is Kyle Long (980-213-7352).'} />
 
               <FAQItem title={'University of Virginia'}
-                beforeText={'The location and time for our Virginia bus is to be announced.'}
-                link={' '}
-                linkText={' '}
-                afterText={'Our onsite contact is Diana Chang (703-851-3868).'} />
-
+                beforeText={'The UVA bus will be leaving from the '}
+                link={'https://goo.gl/maps/hRjmMgfUnN12'}
+                linkText={'Alderman library'}
+                afterText={' at 3:15 AM Saturday morning. Our onsite contact is Diana Chang (703-851-3868).'} />
             </Col>
           </Row>
         </div>

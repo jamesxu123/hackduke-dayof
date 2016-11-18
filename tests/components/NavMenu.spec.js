@@ -15,7 +15,7 @@ describe('(Component) NavMenu', () => {
   })
 
   it('renders the correct number of IndexLinks (6)', () => {
-    expect(_wrapper.find(IndexLink)).to.have.length(6)
+    expect(_wrapper.find(IndexLink)).to.have.length(4)
   })
 
   it('clicking IndexLinks sends to correct page', () => {
@@ -23,8 +23,6 @@ describe('(Component) NavMenu', () => {
     expect(_wrapper.find('[to="/schedule"]')).to.have.length(1)
     expect(_wrapper.find('[to="/maps"]')).to.have.length(1)
     expect(_wrapper.find('[to="/travelinfo"]')).to.have.length(1)
-    expect(_wrapper.find('[to="/speakers"]')).to.have.length(1)
-    expect(_wrapper.find('[to="/datasets"]')).to.have.length(1)
   })
 
   it('pressing menu button changes state correctly', () => {
