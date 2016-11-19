@@ -10,7 +10,8 @@ class DelimitedStackedInfo extends React.Component {
     rightArray: React.PropTypes.array.isRequired,
     alignment: React.PropTypes.string.isRequired,
     leftColor: React.PropTypes.string,
-    rightColor: React.PropTypes.string
+    rightColor: React.PropTypes.string,
+    rightColors: React.PropTypes.array
   }
 
   render () {
@@ -21,13 +22,20 @@ class DelimitedStackedInfo extends React.Component {
         </div>
         <div className={classes.container} style={{textAlign: this.props.alignment}}>
           {this.props.leftArray.map((left, index) => {
-            return (<div className={classes.preDelimeter} key={index}
+            return (<div className={classes.preDelimiter} key={index}
               style={{'color': this.props.leftColor}}>
               {left}
-              <div className={classes.afterDelimeter} key={index}
-                style={{'color': this.props.rightColor}}>
-                {this.props.rightArray[index]}
-              </div>
+              {this.props.rightColor ? (
+                <div className={classes.afterDelimiter} key={index}
+                  style={{'color': this.props.rightColor}}>
+                  {this.props.rightArray[index]}
+                </div>
+                ) : (
+                  <div className={classes.afterDelimiter} key={index}
+                    style={{'color': this.props.rightColors[index]}}>
+                    {this.props.rightArray[index]}
+                  </div>
+              )}
             </div>)
           }
           )}
