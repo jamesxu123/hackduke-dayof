@@ -1,1 +1,48 @@
 @import 'src/styles/base';
+
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(static/fonts/montserrat-light.woff) format('woff'),
+      url(static/fonts/montserrat-light.ttf) format('truetype');
+}
+
+.contentContainer {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.header {
+  text-align: center;
+  font-family: "Montserrat Light", sans-serif;
+  color: #463179;
+}
+
+.leftColumnContainer {
+  width: 375px;
+  float: right;
+}
+
+.rightColumnContainer {
+  width: 375px;
+  float: left;
+}
+
+@media (max-width: $desktopBreakpoint) {
+  
+  .leftColumnContainer {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+  .rightColumnContainer {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+}

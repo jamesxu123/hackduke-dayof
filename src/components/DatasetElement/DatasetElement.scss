@@ -1,0 +1,51 @@
+@import 'src/styles/base';
+
+.container {
+  padding-top: 10px;
+}
+
+.headerContainer {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.header {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: $datasetHeaderGrey;
+}
+
+.blurbContainer {
+  padding: 30px;
+  text-align: left;
+}
+
+.blurb {
+  font-size: 13px;
+  color: $datasetBlurbGrey;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.viewButtonContainer {
+  margin-right: 25px;
+  float: right;
+}
+
+.viewButton {
+  background-color: $viewButtonBlue;
+  color: $viewTextWhite;
+  border-radius: 25px;
+  padding: 5px 25px;
+}
+
+.viewButtonLink, .viewButtonLink:hover, .viewButtonLink:active, .viewButtonLink:visited , .viewButtonLink:link {
+  text-decoration: none;
+}
+
+@media (min-width: $tabletBreakpoint) {
+
+
+
+}
