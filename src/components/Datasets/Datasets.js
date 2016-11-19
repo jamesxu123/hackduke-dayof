@@ -53,6 +53,17 @@ class Datasets extends React.Component {
               </div>
             </Col>
           </Row>
+          <Row>
+            <Col md={6}>
+              <div className={classes.leftColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'ENERGY DATA FOR DUKE CAMPUS'}
+                    blurb={'Energy use data for CIEMAS and Keohane 4 (K-4) Dormitory. K-4 dataset shows 15 minutes interval data for lighting consumption (kWh) for has multiple lighting panels serving the building. CIEMAS dataset shows 15 minutes interval data for building energy consumption (kWh).'}
+                    url={'https://drive.google.com/drive/folders/0B2CsdLZLe28OczJhNkVZWUlTVG8'} />
+                </div>
+              </div>
+            </Col>
+          </Row>
         </div>
       </div>
     )
