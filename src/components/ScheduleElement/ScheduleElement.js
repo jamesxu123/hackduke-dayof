@@ -9,7 +9,8 @@ class ScheduleElement extends React.Component {
     title: React.PropTypes.string.isRequired,
     location: React.PropTypes.string.isRequired,
     speaker: React.PropTypes.string,
-    link: React.PropTypes.string
+    link: React.PropTypes.string,
+    linkTitle: React.PropTypes.string
   }
 
   render () {
@@ -24,7 +25,7 @@ class ScheduleElement extends React.Component {
             <div className={classes.title}> {this.props.title} </div>
             {this.props.link ? (
               <div className={classes.link}>
-                <a href={this.props.link}> Link to More Info </a>
+                <a href={this.props.link}> {this.props.linkTitle} </a>
               </div>
             ) : null }
             {this.props.speaker ? (

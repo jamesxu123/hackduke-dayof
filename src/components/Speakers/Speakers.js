@@ -18,19 +18,19 @@ let mentorshipRightSpeakers = ['TREY WALK and SNEHAN SHARMA', 'DAVID M. MALONE']
 let mentorshipRightText = ['are students who work with Community Empowerment Fund, a nonprofit that provides financial services to low income individuals in Durham and Chapel Hill, North Carolina. Trey and Snehan will speak specifically on how housing, a central feature of building wealth in America, and housing policy can create and perpetuate inequality.',
   'is the Director of Duke\'s Education Dept. and Service Learning Initiative. In a panel-style forum, he will be accompanied by Aria Chernik, Director of Open Knowledge at The Innovation and Technology Policy Lab, and guests from The Friday Institute for Educational Innovation. Hackers will learn about modern issues in education while engaging in discussion with panel members and other hackers about how these issues may be solved with technology.']
 
-let sponsorshipLeftTitles = ['Using the Co-Lab\'s APIs to access Duke Data', 'How to use ArcGIS JavaScript API with ArcGIS Online to visualize data', 'Writing server-less apps on the Ethereum blockchain']
+let sponsorshipLeftTitles = ['Using the Co-Lab\'s APIs to access Duke Data', 'How to use ArcGIS JavaScript API with ArcGIS Online to visualize data', 'React Messaging App Workshop']
 let sponsorshipLeftTimes = ['Saturday Nov 19, 3:00 pm', 'Saturday Nov 19, 4:15pm', 'Saturday Nov 19, 5:00 pm']
-let sponsorshipLeftLocations = ['Hudson Hall 207', 'Hudson 125', 'Hudson 208']
-let sponsorshipLeftSpeakers = ['SALLY HALL: ', 'NATHAN WU: ', 'JIM POSEN: ']
+let sponsorshipLeftLocations = ['Hudson Hall 207', 'Hudson 125', 'Hudson HALL 207']
+let sponsorshipLeftSpeakers = ['SALLY HALL: ', 'NATHAN WU: ', 'MICHAEL DENG: ']
 let sponsorshipLeftText = ['Attendees will learn what API endpoints the Co-Lab has, what data can be accessed using them, and how to integrate them into applications, including authentication requirements',
   'This workshop is providing a lighting way of converting any csv data with geocode or physical address into a featureLayer in ArcGIS Online, and how to use ArcGIS JavaScript to renderer those string data and project on the map.',
-  'An introduction to blockchain technologies, covering what they are and the powerful paradigm shift they have enabled. We will focus on the Ethereum protocol and show how you can get started writing applications using it without any backend servers.']
+  'A project driven workshop where we use ReactJS to make a basic Messaging App.']
 
-let sponsorshipRightTitles = ['React Messaging App Workshop', 'Blockchain, ConsenSys, Ethereum, and INFURA']
+let sponsorshipRightTitles = ['Writing server-less apps on the Ethereum blockchain', 'Blockchain, ConsenSys, Ethereum, and INFURA']
 let sponsorshipRightTimes = ['Saturday Nov 19, 5:00 pm', 'Saturday Nov 19, 8:30 pm']
-let sponsorshipRightLocations = ['Hudson Hall 207', 'Hudson 207']
-let sponsorshipRightSpeakers = ['MICHAEL DENG: ', 'BRENT XU and MICHAEL WUEHLER']
-let sponsorshipRightText = ['A project driven workshop where we use ReactJS to make a basic Messaging App.',
+let sponsorshipRightLocations = ['Hudson Hall 208', 'Hudson Hall 207']
+let sponsorshipRightSpeakers = ['JIM POSEN: ', 'BRENT XU and MICHAEL WUEHLER']
+let sponsorshipRightText = ['An introduction to blockchain technologies, covering what they are and the powerful paradigm shift they have enabled. We will focus on the Ethereum protocol and show how you can get started writing applications using it without any backend servers.',
   'will be discussing ConsenSys and the role that it plays in the BlockChain community.  Additionally we will go into details of developer tools that have been created within ConsenSys including INFURA and other various Ethereum related Dapps.  The talk will focus on innovations in the Blockchain space as well as opportunities and advancements in this fast growing industry.']
 
 // let educationLeftTitles = ['Intro to Git', 'React JS', 'HTML/CSS/JS', 'Backend Web Development']
@@ -160,4 +160,3 @@ class Speakers extends React.Component {
 // </Row>
 
 export default Speakers
-
