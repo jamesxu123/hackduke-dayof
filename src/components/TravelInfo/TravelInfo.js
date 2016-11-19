@@ -47,7 +47,6 @@ class TravelInfo extends React.Component {
                 link={'https://goo.gl/maps/pBiG6EiMjrv'}
                 linkText={'UF commuter lot'}
                 afterText={' at 12:30 AM Saturday morning. Our onsite contact is Cesar Gonzalez (786-320-2490).'} />
-
               <FAQItem title={'University of Maryland'}
                 beforeText={'The UMD bus will be leaving from the '}
                 link={'https://goo.gl/maps/ABamfXwYAZH2'}
@@ -65,7 +64,6 @@ class TravelInfo extends React.Component {
                 link={'https://goo.gl/maps/hRjmMgfUnN12'}
                 linkText={'Alderman library'}
                 afterText={' at 3:15 AM Saturday morning. Our onsite contact is Diana Chang (703-851-3868).'} />
-
             </Col>
           </Row>
         </div>

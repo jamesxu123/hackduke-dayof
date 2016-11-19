@@ -42,9 +42,9 @@ class EventInfo extends React.Component {
                 boldText={'@mentorbot'}
                 thirdText={' on Slack to pair up with a mentor!'} />
               <EventInfoSection header={'HARDWARE'}
-                text={'Check out hardware at Telcom. Click to see what\'s available and what you\'ve checked out.'}
-                linkText={'HARDWARE.HACKDUKE.ORG'}
-                url={'https://hardware.hackduke.org'} />
+                text={'Check out hardware at Telcom. Log in to see what\'s available and what you\'ve checked out.'}
+                linkText={'MY.HACKDUKE.ORG'}
+                url={'https://my.hackduke.org'} />
             </Col>
           </Row>
         </div>
