@@ -15,7 +15,7 @@ describe('(Component) NavMenu', () => {
   })
 
   it('renders the correct number of IndexLinks (6)', () => {
-    expect(_wrapper.find(IndexLink)).to.have.length(4)
+    expect(_wrapper.find(IndexLink)).to.have.length(5)
   })
 
   it('clicking IndexLinks sends to correct page', () => {
