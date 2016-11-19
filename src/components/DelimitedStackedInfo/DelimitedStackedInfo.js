@@ -31,10 +31,10 @@ class DelimitedStackedInfo extends React.Component {
                   {this.props.rightArray[index]}
                 </div>
                 ) : (
-                  <div className={classes.afterDelimiter} key={index}
-                    style={{'color': this.props.rightColors[index]}}>
-                    {this.props.rightArray[index]}
-                  </div>
+                <div className={classes.afterDelimiter} key={index}
+                  style={{'color': this.props.rightColors[index]}}>
+                  {this.props.rightArray[index]}
+                </div>
               )}
             </div>)
           }
