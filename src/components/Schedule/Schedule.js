@@ -14,7 +14,7 @@ let satLinkTitles = [null, null, null, null, null, null, null, null, null, null,
 
 let sunStartTimes = ['12:00 am -', '12:30 am -', '9:00 am -', '10:00 am -', '11:00 am - ', '12:00 pm -', '1:30 pm -', '1:45 pm -', '3:00 pm -', '4:30 pm -']
 let sunEndTimes = ['1:00 am ', '1:30 am ', '10:30 am ', '12:00 pm ', '12:00 pm', '1:30 pm ', '1:30 pm ', '2:45 pm ', '4:00 pm ', '5:30 pm']
-let sunTitles = ['Midnight Snack', 'MLH Cup Stacking', 'Breakfast + Coffee', 'Massage Stations', 'How To Present Your Hack', 'Lunch', 'Hacking Ends', 'Expo #1', 'Expo #2', 'Closing Ceremony']
+let sunTitles = ['Midnight Snack', 'MLH Cup Stacking', 'Breakfast + Coffee', 'Massage Stations', 'How To Present Your Hack', 'Lunch', 'Hacking Ends', 'Expo #1: Health & Environment Tracks', 'Expo #2: Inequality and Education Tracks', 'Closing Ceremony']
 let sunSpeakers = [null, null, null, null, 'Bernard Marger | Yik Yak', null, null, null, null, null]
 let sunLocations = ['Schiciano Lobby', 'CIEMAS Atrium 1st Floor', 'Schiciano Lobby', 'CIEMAS Atrium 1st Floor', 'Schiciano Lobby', 'Hudson 208', 'Everywhere', 'CIEMAS', 'CIEMAS', 'Penn Pavillion']
 
