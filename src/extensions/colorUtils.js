@@ -4,8 +4,7 @@ export const lightGrey = '#DEDEDE'
 export const lightGreen = '#52D298'
 export const acceptedBlue = '#1AB6F6'
 
-export const shirtPink = '#FFC0CB'
-export const shirtGray = '#87888A'
+export const shirtPurple = '#9748EA'
 export const shirtMaroon = '#800000'
-export const shirtPurple = '#9B30FF'
+export const shirtBlue = '#2730D9'
 

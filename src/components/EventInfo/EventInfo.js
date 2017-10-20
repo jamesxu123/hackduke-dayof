@@ -4,7 +4,7 @@ import { Col, Row } from 'react-bootstrap'
 import EventInfoSection from 'components/EventInfoSection'
 import AlertBubble from 'components/AlertBubble'
 import DelimitedStackedInfo from 'components/DelimitedStackedInfo'
-import { lighterGrey, acceptedBlue, shirtPink, shirtGray, shirtMaroon, shirtPurple } from 'extensions/colorUtils'
+import { lighterGrey, acceptedBlue, shirtPurple, shirtMaroon, shirtBlue } from 'extensions/colorUtils'
 
 class EventInfo extends React.Component {
 
@@ -23,9 +23,9 @@ class EventInfo extends React.Component {
                 rightColor={acceptedBlue}
                 alignment={'center'} />
               <DelimitedStackedInfo header={'SHIRT COLOR LEGEND'}
-                leftArray={['pink: ', 'gray: ', 'maroon: ', 'purple: ']}
-                rightArray={['organizer', 'volunteer', 'sponsor/mentor', 'hacker']}
-                rightColors={[shirtPink, shirtGray, shirtMaroon, shirtPurple]}
+                leftArray={['purple: ', 'maroon: ', 'blue: ']}
+                rightArray={['organizer', 'sponsor/mentor', 'hacker']}
+                rightColors={[shirtPurple, shirtMaroon, shirtBlue]}
                 // rightColor={shirtPink}
                 alignment={'center'} />
               <EventInfoSection header={'DEVPOST'}
