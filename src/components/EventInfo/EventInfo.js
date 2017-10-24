@@ -29,12 +29,12 @@ class EventInfo extends React.Component {
                 // rightColor={shirtPink}
                 alignment={'center'} />
               <EventInfoSection header={'DEVPOST'}
-                text={'View prizes and submit your hacks to devpost by 1:30 PM on Sunday, 10/29!'}
+                text={'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/29. Hacking ends at 1:30 pm!'}
                 linkText={'HACKDUKE-2017.DEVPOST.COM'}
                 url={'https://hackduke-2017.devpost.com/'} />
               <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
-                leftArray={['911 ', '919-684-2444 ', '240-778-4399 ', '510-730-0186 ', '913-748-1682 ', '254-716-0605 ']}
-                rightArray={['| Duke Police (emergency)', '| Duke Police', '| Yoon Ko', '| Yixin Lin', '| Michelle Chen', '| Harvey Shi']}
+                leftArray={['911 ', '919-684-2444 ', '919-903-4030 ', '954-305-0146 ', '512-627-7127 ', '319-383-8274 ', '703-585-7204 ', '240-751-0359 ']}
+                rightArray={['| Duke Police (emergency)', '| Duke Police', '| Stephanie Ding', '| Steven Yang', '| Maya Messinger', '| Neil Wu', '| Carter Zenke', '| Edward Liang']}
                 rightColor={lighterGrey}
                 alignment={'center'} />
             </Col>
@@ -48,7 +48,7 @@ class EventInfo extends React.Component {
                 boldText={'TBD'}
                 thirdText={' will come soon'} />
               <EventInfoSection header={'HARDWARE'}
-                text={'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'}/>
+                text={'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'} />
             </Col>
           </Row>
         </div>
