@@ -25,45 +25,40 @@ class TravelInfo extends React.Component {
                 beforeText={'If you’re driving over, you can find parking at the '}
                 link={'https://goo.gl/maps/SJ1SxHYGAMn'}
                 linkText={'Duke Chemistry Lot'}
-                afterText={'. We will have a parking attendant from 10 AM - 2 PM \
-                           on Saturday. If you will be arriving after that, \
-                           please let us know so we can make appropriate accommodations!'} />
+                afterText={'. We will have a parking attendant from 7:30AM - 12:00PM \
+                           on Saturday, and 4:00PM - 8:00PM on Sunday. \
+                           If you will be arriving outside of those time windows, please let us know so we can make appropriate accommodations!'} />
 
               <FAQItem title={'Getting dropped off'}
-                beforeText={'The easiest place to be dropped off is in front of the Duke Chapel at the '}
-                link={'https://goo.gl/maps/Uh1etuH8sRB2'}
-                linkText={'West Campus bus stop'}
-                afterText={'.'} />
+                beforeText={'The easiest place to be dropped off is at the loop at the end of '}
+                link={'https://goo.gl/maps/Grbu24enDMJ2'}
+                linkText={'Science Drive'}
+                afterText={' loop.'} />
 
               <FAQItem title={'Georgia Tech'}
                 beforeText={'The Georgia Tech coach bus will be leaving from the '}
                 link={'https://goo.gl/maps/7bpgzg4oHW92'}
                 linkText={'Clough Undergrad Learning Commons'}
-                afterText={' at 3:30 AM Saturday morning. Our onsite contact is Lekha Surasani (732-543-4382).'} />
+                afterText={' at 2:40 AM Saturday morning.'} />
             </Col>
             <Col md={6}>
               <FAQItem title={'University of Florida'}
                 beforeText={'We\'ll have a bus leaving from the '}
                 link={'https://goo.gl/maps/pBiG6EiMjrv'}
                 linkText={'UF commuter lot'}
-                afterText={' at 12:30 AM Saturday morning. Our onsite contact is Cesar Gonzalez (786-320-2490).'} />
-              <FAQItem title={'University of Maryland'}
-                beforeText={'The UMD bus will be leaving from the '}
-                link={'https://goo.gl/maps/ABamfXwYAZH2'}
-                linkText={'Computer Science Instructional Center'}
-                afterText={' at 4:30 AM Saturday morning. Our onsite contact is Ji-Hyuk Bae (240-855-7058).'} />
+                afterText={' at 12:15 AM Saturday morning. Our onsite contact is Jenn Le.'} />
 
               <FAQItem title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
                 link={'https://goo.gl/maps/voqDEqvHfKL2'}
                 linkText={'Newman Library'}
-                afterText={' at 6:00 AM Saturday morning. Our onsite contact is Kyle Long (980-213-7352).'} />
+                afterText={' at 5:45 AM Saturday morning. Our onsite contact is Chris Blair.'} />
 
               <FAQItem title={'University of Virginia'}
                 beforeText={'The UVA bus will be leaving from the '}
                 link={'https://goo.gl/maps/hRjmMgfUnN12'}
                 linkText={'Alderman library'}
-                afterText={' at 3:15 AM Saturday morning. Our onsite contact is Diana Chang (703-851-3868).'} />
+                afterText={' at 2:45 AM Saturday morning. Our onsite contact is Frank Huang (571) 201-9700.'} />
             </Col>
           </Row>
         </div>
