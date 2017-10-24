@@ -46,13 +46,13 @@ class TravelInfo extends React.Component {
                 beforeText={'We\'ll have a bus leaving from the '}
                 link={'https://goo.gl/maps/pBiG6EiMjrv'}
                 linkText={'UF commuter lot'}
-                afterText={' at 12:15 AM Saturday morning. Our onsite contact is Jenn Le.'} />
+                afterText={' at 12:15 AM Saturday morning. Our onsite contact is Eyal Abadi (305) 767-6640.'} />
 
               <FAQItem title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
                 link={'https://goo.gl/maps/voqDEqvHfKL2'}
                 linkText={'Newman Library'}
-                afterText={' at 5:45 AM Saturday morning. Our onsite contact is Chris Blair.'} />
+                afterText={' at 5:45 AM Saturday morning. Our onsite contact is Swaraj Dhumne (703) 636-3348.'} />
 
               <FAQItem title={'University of Virginia'}
                 beforeText={'The UVA bus will be leaving from the '}
