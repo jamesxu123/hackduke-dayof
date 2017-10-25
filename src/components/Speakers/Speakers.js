@@ -4,19 +4,21 @@ import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
 import SpeakersElement from 'components/SpeakersElement'
 import { Col, Row } from 'react-bootstrap'
 
-let mentorshipLeftTitles = ['Technology for Energy and Environmental Sustainability', 'Innovation in Health Technology']
-let mentorshipLeftTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm']
-let mentorshipLeftLocations = ['Hudson Hall 208', 'Schiciano B']
-let mentorshipLeftSpeakers = ['LAUREN SHUM', 'JAMIE DANIEL']
-let mentorshipLeftText = ['is an ECE major, President of the Duke Smart Home, and organic photovoltaics research assistant. Her experience includes building heat transfer calculation tools supporting coal plant retrofits in China and designing a thermoelectric trash combustor for mitigating pollution in India. As the 2016 Delegate of the United States of America to the G(irls)20 Summit, she helped draft and deliver a communiqué to G20 leaders with recommendations for increasing female labor force participation worldwide. She was also invited to the White House to speak on solar energy and engineering education in her capacity as a NAE Grand Challenge Scholar.',
-  'will take you through the process of innovation at Duke Health. From providers, to engineers, and finally to the patients, health technologies are making their impact at Duke Hospital.']
+let mentorshipLeftTitles = ['Software Innovation in Healthcare', '', '']
+let mentorshipLeftTimes = ['Saturday Oct 28, 1:30 pm', '', '']
+let mentorshipLeftLocations = ['Schianno B', '', '']
+let mentorshipLeftSpeakers = ['KEVIN CAVES', 'TANMAY GOKHALE', 'THOMAS LI']
+let mentorshipLeftText = [' is a clinical associate at Duke for the Departments of Surgery and Medicine, and teaches several BME courses at Duke. His research focuses on developing tools for disabled patients including brain computer interface and sensor technologies. At this workshop, he will present opportunities for innovation for improving the lives of people with disabilities.',
+  ' is a MD-PhD student at Duke, pursing his graduate studies in Biomedical Engineering. He is the co-founder of The Triangle Health Innovation Challenge (THInC), which takes place at Duke every year and brings together students and young professionals (engineers, clinicians, designers, business people and others) to tackle and build innovative solutions for the biggest challenges in health and healthcare. Tanmay will present winning tech solutions developed at THInC that aim to solve the biggest pain points in healthcare.',
+  ' is a senior at Duke majoring in Computer Science. As a HackDuke organizer since his freshman year, he helped bring Health and Wellness mentorship and general tech education events to HackDuke. He will take hackers through his research in building an interpretable model for predicting Neonatal Encephalopathy from electronic medical records, as well as introduce publicly available health related datasets.']
 
-let mentorshipRightTitles = ['Housing Inequality in Durham', 'Innovative Approaches to Educational Issues']
-let mentorshipRightTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm']
-let mentorshipRightLocations = ['Hudson Hall 207', 'Schiciano A']
-let mentorshipRightSpeakers = ['TREY WALK and SNEHAN SHARMA', 'DAVID M. MALONE']
+let mentorshipRightTitles = ['Housing Inequality in Durham', 'Innovative Approaches to Educational Issues', 'Innovation in Health Technology']
+let mentorshipRightTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm']
+let mentorshipRightLocations = ['Hudson Hall 207', 'Schiciano A', 'Schiciano B']
+let mentorshipRightSpeakers = ['TREY WALK and SNEHAN SHARMA', 'DAVID M. MALONE', 'JAMIE DANIEL']
 let mentorshipRightText = ['are students who work with Community Empowerment Fund, a nonprofit that provides financial services to low income individuals in Durham and Chapel Hill, North Carolina. Trey and Snehan will speak specifically on how housing, a central feature of building wealth in America, and housing policy can create and perpetuate inequality.',
-  'is the Director of Duke\'s Education Dept. and Service Learning Initiative. In a panel-style forum, he will be accompanied by Aria Chernik, Director of Open Knowledge at The Innovation and Technology Policy Lab, and guests from The Friday Institute for Educational Innovation. Hackers will learn about modern issues in education while engaging in discussion with panel members and other hackers about how these issues may be solved with technology.']
+  'is the Director of Duke\'s Education Dept. and Service Learning Initiative. In a panel-style forum, he will be accompanied by Aria Chernik, Director of Open Knowledge at The Innovation and Technology Policy Lab, and guests from The Friday Institute for Educational Innovation. Hackers will learn about modern issues in education while engaging in discussion with panel members and other hackers about how these issues may be solved with technology.',
+  'will take you through the process of innovation at Duke Health. From providers, to engineers, and finally to the patients, health technologies are making their impact at Duke Hospital.']
 
 let sponsorshipLeftTitles = ['Using the Co-Lab\'s APIs to access Duke Data', 'How to use ArcGIS JavaScript API with ArcGIS Online to visualize data', 'React Messaging App Workshop']
 let sponsorshipLeftTimes = ['Saturday Nov 19, 3:00 pm', 'Saturday Nov 19, 4:15pm', 'Saturday Nov 19, 5:00 pm']
