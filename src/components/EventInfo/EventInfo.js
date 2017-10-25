@@ -40,13 +40,13 @@ class EventInfo extends React.Component {
             </Col>
             <Col md={6}>
               <EventInfoSection header={'Zoho'}
-                text={'TBD'}
-                linkText={'TBD'}
-                url={'TDB'} />
+                text={'Coming Soon'}
+                linkText={'Coming Soon'}
+                url={''} />
               <AlertBubble firstText={'Need mentorship during the event?'}
-                secondText={'Zoho bot '}
-                boldText={'TBD'}
-                thirdText={' will come soon'} />
+                secondText={' '}
+                boldText={'Zoho bot'}
+                thirdText={' will be coming soon'} />
               <EventInfoSection header={'HARDWARE'}
                 text={'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'} />
             </Col>
