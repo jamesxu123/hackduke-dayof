@@ -19,11 +19,11 @@ let mentorshipRightSpeakers = ['DR. AMANDA STARLING GOULD', 'TYLER WAKEFIELD']
 let mentorshipRightText = ['graduated from Duke University in May of 2017 with a Ph.D. in Literature and a certificate in Information Science & Studies. In August of 2017, she was hired as the Project Coordinator / Digital Humanities Specialist for the Franklin Humanities Institute. She also now teaches “Green Certified” Environmental Humanities courses for the Duke Literature Department and sits on the Environment and Culture Working Group for Duke’s new Healthy Duke Initiative.',
   'is a senior with a public policy major, economics minor, and energy & environment certificate. In his time at Duke, he has served as Co-president of the Duke Energy Club, helping organize educational events, research projects, and service trips to install solar for low-income communities. Tyler has researched the impacts of rural electrification in Sumba Island, Indonesia and he has also researched the economic, climate, and environmental justice impacts of natural gas pipeline overcapacity in the US. Tyler studied abroad in Vietnam, Morocco, and Bolivia where he studied climate change impacts, politics, and economics in these countries. He is passionate about decarbonizing energy systems and using the energy transition to prioritize those most vulnerable to climate change.']
 
-let sponsorshipLeftTitles = ['Announcing Soon']
-let sponsorshipLeftTimes = ['Saturday Oct 28, 1:30 pm']
-let sponsorshipLeftLocations = ['']
+let sponsorshipLeftTitles = ['ConsenSys Tech Talk - How to use Uport']
+let sponsorshipLeftTimes = ['Saturday Oct 28, 4:15 pm']
+let sponsorshipLeftLocations = ['Hudson 222']
 let sponsorshipLeftSpeakers = ['']
-let sponsorshipLeftText = ['']
+let sponsorshipLeftText = ['Uport is a self-sovereign identity system that allows people to own their identity, fully control the flow of their personal information, and authenticate themselves in various contexts - both on and off blockchain. We will demo how to use Uport and talk about its potential implications.']
 
 let sponsorshipRightTitles = ['Announcing Soon']
 let sponsorshipRightTimes = ['Saturday Oct 28, 1:30 pm']
