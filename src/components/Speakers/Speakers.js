@@ -6,17 +6,18 @@ import { Col, Row } from 'react-bootstrap'
 
 let mentorshipLeftTitles = ['Software Innovation in Healthcare', '', '']
 let mentorshipLeftTimes = ['Saturday Oct 28, 1:30 pm', '', '']
-let mentorshipLeftLocations = ['Schianno B', '', '']
+let mentorshipLeftLocations = ['Schiciano B', '', '']
 let mentorshipLeftSpeakers = ['KEVIN CAVES', 'TANMAY GOKHALE', 'THOMAS LI']
 let mentorshipLeftText = [' is a clinical associate at Duke for the Departments of Surgery and Medicine, and teaches several BME courses at Duke. His research focuses on developing tools for disabled patients including brain computer interface and sensor technologies. At this workshop, he will present opportunities for innovation for improving the lives of people with disabilities.',
   ' is a MD-PhD student at Duke, pursing his graduate studies in Biomedical Engineering. He is the co-founder of The Triangle Health Innovation Challenge (THInC), which takes place at Duke every year and brings together students and young professionals (engineers, clinicians, designers, business people and others) to tackle and build innovative solutions for the biggest challenges in health and healthcare. Tanmay will present winning tech solutions developed at THInC that aim to solve the biggest pain points in healthcare.',
   ' is a senior at Duke majoring in Computer Science. As a HackDuke organizer since his freshman year, he helped bring Health and Wellness mentorship and general tech education events to HackDuke. He will take hackers through his research in building an interpretable model for predicting Neonatal Encephalopathy from electronic medical records, as well as introduce publicly available health related datasets.']
 
-let mentorshipRightTitles = ['Announcing Soon']
-let mentorshipRightTimes = ['Saturday Oct 28, 1:30 pm']
-let mentorshipRightLocations = ['']
-let mentorshipRightSpeakers = ['']
-let mentorshipRightText = ['']
+let mentorshipRightTitles = ['Energy And Environment Track Talk', '']
+let mentorshipRightTimes = ['Saturday Oct 28, 1:30 pm', '']
+let mentorshipRightLocations = ['Hudson 207', '']
+let mentorshipRightSpeakers = ['DR. AMANDA STARLING GOULD', 'TYLER WAKEFIELD']
+let mentorshipRightText = ['graduated from Duke University in May of 2017 with a Ph.D. in Literature and a certificate in Information Science & Studies. In August of 2017, she was hired as the Project Coordinator / Digital Humanities Specialist for the Franklin Humanities Institute. She also now teaches “Green Certified” Environmental Humanities courses for the Duke Literature Department and sits on the Environment and Culture Working Group for Duke’s new Healthy Duke Initiative.',
+'is a senior with a public policy major, economics minor, and energy & environment certificate. In his time at Duke, he has served as Co-president of the Duke Energy Club, helping organize educational events, research projects, and service trips to install solar for low-income communities. Tyler has researched the impacts of rural electrification in Sumba Island, Indonesia and he has also researched the economic, climate, and environmental justice impacts of natural gas pipeline overcapacity in the US. Tyler studied abroad in Vietnam, Morocco, and Bolivia where he studied climate change impacts, politics, and economics in these countries. He is passionate about decarbonizing energy systems and using the energy transition to prioritize those most vulnerable to climate change.']
 
 let sponsorshipLeftTitles = ['Announcing Soon']
 let sponsorshipLeftTimes = ['Saturday Oct 28, 1:30 pm']
