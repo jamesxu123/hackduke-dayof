@@ -14,7 +14,7 @@ let satLinkTitles = [null, null, null, null, null, null, null, null, null, null,
 
 let sunStartTimes = ['9:00 am -', '10:30 am -', '12:00 pm', '12:00 pm -', '1:30 pm', '1:45 pm -', '3:00 pm -', '4:30 pm -']
 let sunEndTimes = ['10:30 am ', '12:00 pm ', null, '1:30 pm ', null, '2:45 pm ', '4:00 pm ', '5:30 pm ']
-let sunTitles = ['Breakfast', 'Massage Therapists', 'Submissions Due to Devpost', 'Lunch', 'Hacking Ends', 'Expo 1', 'Expo 2', 'Closing Ceremony']
+let sunTitles = ['Breakfast', 'Massage Therapists', 'Submissions Due to Devpost', 'Lunch', 'Hacking Ends', 'Expo 1 - Health and Education Tracks', 'Expo 2 - Inequality and Environment Tracks', 'Closing Ceremony']
 let sunSpeakers = [null, null, null, null, null, null, null, null]
 let sunLocations = ['Schiciano Atrium', 'CIEMAS', null, 'Schiciano Atrium', null, 'CIEMAS', 'CIEMAS', 'Page Auditorium']
 
