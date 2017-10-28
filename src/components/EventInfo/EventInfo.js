@@ -24,7 +24,7 @@ class EventInfo extends React.Component {
                 alignment={'center'} />
               <DelimitedStackedInfo header={'SHIRT COLOR LEGEND'}
                 leftArray={['purple: ', 'maroon: ', 'blue: ']}
-                rightArray={['organizer', 'sponsor/mentor', 'hacker']}
+                rightArray={['organizers and volunteers', 'sponsor/mentor', 'hacker']}
                 rightColors={[shirtPurple, shirtMaroon, shirtBlue]}
                 // rightColor={shirtPink}
                 alignment={'center'} />
