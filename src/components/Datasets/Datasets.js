@@ -125,6 +125,66 @@ class Datasets extends React.Component {
                 </div>
               </div>
             </Col>
+            <Col md={6}>
+              <div className={classes.rightColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'PHYSIONET'}
+                    blurb={'PhysioNet offers free web access to large collections of recorded physiologic signals and related open-source software.'}
+                    url={'https://physionet.org/'} />
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <div className={classes.leftColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'ECG DATA'}
+                    blurb={'The MIT-BIH Arrhythmia Database contains 48 half-hour excerpts of two-channel ambulatory ECG recordings, obtained from 47 subjects studied by the BIH Arrhythmia Laboratory between 1975 and 1979.'}
+                    url={'https://www.physionet.org/physiobank/database/mitdb/'} />
+                </div>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className={classes.rightColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'SMART SANDBOX'}
+                    blurb={'A variety of de-identified electronic medical record data including patient values, physiology, outcomes, and genetics.'}
+                    url={'http://docs.smarthealthit.org/data/'} />
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <div className={classes.leftColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'CALIFORNIA HEALTH AND HUMAN SERVICES OPEN DATA PORTAL'}
+                    blurb={''}
+                    url={'https://data.chhs.ca.gov/'} />
+                </div>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className={classes.rightColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'CMS (MEDICARE) COST/PAYMENT DATA'}
+                    blurb={''}
+                    url={'https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient.html'} />
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <div className={classes.leftColumnContainer}>
+                <div className={classes.contentContainer}>
+                  <DatasetElement header={'MEDICARE HOSPTIAL COMPARE DATASET'}
+                    blurb={'Compare the quality of care at over 4,000 Medicare-certified hospitals across the country.'}
+                    url={'https://data.medicare.gov/data/hospital-compare'} />
+                </div>
+              </div>
+            </Col>
           </Row>
           <h3 className={classes.header}>INEQUALITY</h3>
           <Row>
