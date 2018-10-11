@@ -1,7 +1,7 @@
 @import 'src/styles/base';
 
 .navMenu {
-  background-color: #fbfbfb;
+  background-color: #5c5299;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -60,7 +60,7 @@
 .linkElement:link {
   display: block;
   text-decoration: none;
-  color: #2b2b2b;
+  color: rgba(255, 255, 255, 0.66);
   font-weight: bold;
   font-family: 'Montserrat Light', sans-serif;
   border-left: 0px solid transparent;
@@ -70,8 +70,8 @@
 
 .activeLinkElement,
 .linkElement:hover {
-  border-left: 6px solid rgb(95, 118, 203) !important;
-  color: rgb(95, 118, 203) !important;
+  border-left: 6px solid #fff !important;
+  color: #fff !important;
 }
 
 .linkElement:hover {
@@ -81,8 +81,7 @@
 @media (min-width: $tabletBreakpoint) {
   .navMenu {
     width: $desktopNavMenuWidth;
-    box-shadow: inset -2px 0 2px -2px rgba(0, 0, 0, 0.0333),
-      inset -40px 0 40px -40px rgba(0, 0, 0, 0.075);
+    box-shadow: none;
   }
 
   .navMenu img {
