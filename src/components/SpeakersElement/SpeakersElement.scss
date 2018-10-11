@@ -5,17 +5,18 @@
   font-style: normal;
   font-weight: 400;
   src: local('Montserrat Light'), local('Montserrat-Light'),
-      url(static/fonts/montserrat-light.woff) format('woff'),
-      url(static/fonts/montserrat-light.ttf) format('truetype');
+    url(static/fonts/montserrat-light.woff) format('woff'),
+    url(static/fonts/montserrat-light.ttf) format('truetype');
 }
 
 .container {
-  padding-top: 30px;  
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
-.titleContainer, .infoContainer {
+.titleContainer,
+.infoContainer {
   transform: translateX(20px);
   float: left;
   font-size: 15px;
@@ -31,10 +32,11 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 1.05em;
-  font-family: "Avenir Next", sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
 }
 
-.speaker, .text {
+.speaker,
+.text {
   display: inline;
   letter-spacing: 0.5px;
 }
@@ -43,12 +45,15 @@
   font-weight: 500;
 }
 
-.text, .time {
-  color: #4A4A4A;
+.text,
+.time {
+  color: #4a4a4a;
   font-weight: 400;
 }
 
-.time, .speaker, .text {
-  font-family: "Avenir Next", sans-serif;
+.time,
+.speaker,
+.text {
+  font-family: 'Montserrat Light', sans-serif;
   font-size: 1em;
 }
