@@ -70,7 +70,7 @@ class NavMenu extends React.Component {
               onClick={this.handleClick}
               className={classes.linkElement}
               activeClassName={classes.activeLinkElement}
-              to={'/eventinfo'}
+              to={'/'}
             >
               Event Info
             </IndexLink>
