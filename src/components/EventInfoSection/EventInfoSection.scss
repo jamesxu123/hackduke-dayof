@@ -11,13 +11,13 @@
 }
 
 .text {
-  font-size: 15px;
+  font-size: $bodyFontSize;
   padding: 20px 40px 20px 40px;
   font-weight: 400;
 }
 
 .link {
   font-size: 18px;
-  font-family: 'Montserrat Light', sans-serif;
   color: $acceptedBlue;
+  text-decoration: underline;
 }

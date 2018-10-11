@@ -10,8 +10,10 @@
 }
 
 .header {
-  font-size: 15px;
+  font-size: $bodyFontSize;
   color: $datasetHeaderGrey;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .blurbContainer {
@@ -20,7 +22,7 @@
 }
 
 .blurb {
-  font-size: 13px;
+  font-size: $bodyFontSize;
   color: $datasetBlurbGrey;
   line-height: 18px;
   font-weight: 400;
@@ -34,8 +36,11 @@
 .viewButton {
   background-color: $viewButtonBlue;
   color: $viewTextWhite;
+  font-size: $bodyFontSize;
   border-radius: 25px;
-  padding: 5px 25px;
+  padding: 10px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .viewButtonLink,

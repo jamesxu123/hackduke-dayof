@@ -10,13 +10,11 @@
 
 .preDelimiter {
   padding-top: 5px;
-  font-size: 15px;
-  font-family: 'Montserrat Light', sans-serif;
+  font-size: $bodyFontSize;
 }
 
 .afterDelimiter {
-  font-size: 15px;
+  font-size: $bodyFontSize;
   display: inline-block;
   padding-top: 5px;
-  font-family: 'Montserrat Light', sans-serif;
 }

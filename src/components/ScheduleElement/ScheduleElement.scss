@@ -1,14 +1,14 @@
 @import 'src/styles/base';
 
 .container {
-  padding-top: 30px;  
+  padding-top: 30px;
   display: flex;
 }
 
 .timeContainer {
   transform: translateX(20px);
   float: left;
-  font-size: 15px;
+  font-size: $bodyFontSize;
   text-align: left;
   padding-left: 12px;
   width: 100px;
@@ -38,10 +38,10 @@
 
 .speaker {
   padding-bottom: 3px;
-  font-size: 15px;
+  font-size: $bodyFontSize;
 }
 
 .link {
-  font-size: 15px;
+  font-size: $bodyFontSize;
   padding-bottom: 2px;
 }

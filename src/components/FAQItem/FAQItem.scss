@@ -9,7 +9,7 @@
   padding-top: 5px;
   color: $aboutBlack;
   line-height: 2em;
-  font-size: 1em;
+  font-size: $bodyFontSize;
 }
 
 .sectionHeader {
@@ -22,4 +22,6 @@
 .link {
   padding: 0;
   cursor: pointer;
+  color: $acceptedBlue !important;
+  text-decoration: underline;
 }
