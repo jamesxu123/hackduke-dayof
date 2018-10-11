@@ -18,3 +18,10 @@
   font-weight: 400;
   src: url(/fonts/Larsseit.woff) format('woff');
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/Larsseit-Medium.woff) format('woff');
+}
