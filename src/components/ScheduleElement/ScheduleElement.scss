@@ -3,12 +3,13 @@
 .container {
   padding-top: 30px;
   display: flex;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .timeContainer {
   transform: translateX(20px);
   float: left;
-  font-size: $bodyFontSize;
+  font-size: 18px;
   text-align: left;
   padding-left: 12px;
   width: 100px;
@@ -16,12 +17,12 @@
 
 .time {
   color: $timePink;
+  font-weight: bold;
 }
 
 .infoContainer {
   transform: translateX(40px);
   float: right;
-  font-size: 16px;
   text-align: left;
   width: 175px;
 }
@@ -29,10 +30,12 @@
 .title {
   color: $acceptedBlue;
   padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .location {
-  font-size: 14px;
+  font-size: $bodyFontSize;
   color: $locationGray;
 }
 
