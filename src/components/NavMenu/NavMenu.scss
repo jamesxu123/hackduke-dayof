@@ -50,7 +50,8 @@
 }
 
 .menuItem {
-  padding: 10px 0;
+  text-align: center;
+  padding: 8px 0;
 }
 
 .linkElement,
@@ -58,15 +59,22 @@
 .linkElement:visited,
 .linkElement:link {
   display: block;
-  text-align: center;
   text-decoration: none;
   color: #2b2b2b;
-  font-weight: 500;
+  font-weight: bold;
   font-family: 'Montserrat Light', sans-serif;
+  border-left: 0px solid transparent;
+  padding: 12px 0;
+  transition: color 0.2s, border-left 0.2s;
+}
+
+.activeLinkElement,
+.linkElement:hover {
+  border-left: 6px solid rgb(95, 118, 203) !important;
+  color: rgb(95, 118, 203) !important;
 }
 
 .linkElement:hover {
-  color: #7ec0ee;
   cursor: pointer;
 }
 
@@ -77,10 +85,6 @@
 
   .navMenu img {
     padding: 12vh 0 5vh 0;
-  }
-
-  .menuItem {
-    padding: 1.5vh 0;
   }
 
   .menuButton {

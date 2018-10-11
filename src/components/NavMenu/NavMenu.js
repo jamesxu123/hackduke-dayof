@@ -69,54 +69,60 @@ class NavMenu extends React.Component {
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/eventinfo'}
             >
-              EVENT INFO
+              Event Info
             </IndexLink>
           </div>
           <div className={classes.menuItem}>
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/schedule'}
             >
-              SCHEDULE
+              Schedule
             </IndexLink>
           </div>
           <div className={classes.menuItem}>
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/maps'}
             >
-              MAPS
+              Maps
             </IndexLink>
           </div>
           <div className={classes.menuItem}>
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/travelinfo'}
             >
-              TRAVEL INFO
+              Travel Info
             </IndexLink>
           </div>
           <div className={classes.menuItem}>
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/speakers'}
             >
-              SPEAKERS
+              Speakers
             </IndexLink>
           </div>
           <div className={classes.menuItem}>
             <IndexLink
               onClick={this.handleClick}
               className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
               to={'/datasets'}
             >
-              DATASETS
+              Datasets
             </IndexLink>
           </div>
         </div>
