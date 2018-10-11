@@ -63,7 +63,7 @@ class NavMenu extends React.Component {
           style={{ left: `${this.state.menuLeft}` }}
         >
           <a href={'https://hackduke.org'}>
-            <img src="hackduke-logo.png" alt="Hackduke Logo" />
+            <img src="hackduke-logo.svg" alt="Hackduke Logo" />
           </a>
           <div className={classes.menuItem}>
             <IndexLink
