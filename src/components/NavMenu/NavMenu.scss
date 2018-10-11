@@ -81,6 +81,8 @@
 @media (min-width: $tabletBreakpoint) {
   .navMenu {
     width: $desktopNavMenuWidth;
+    box-shadow: inset -2px 0 2px -2px rgba(0, 0, 0, 0.0333),
+      inset -40px 0 40px -40px rgba(0, 0, 0, 0.075);
   }
 
   .navMenu img {
