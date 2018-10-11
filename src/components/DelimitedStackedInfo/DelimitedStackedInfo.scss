@@ -1,14 +1,5 @@
 @import 'src/styles/base';
 
-@font-face {
-  font-family: 'Montserrat Light';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat Light'), local('Montserrat-Light'),
-      url(static/fonts/montserrat-light.woff) format('woff'),
-      url(static/fonts/montserrat-light.ttf) format('truetype');
-}
-
 .container {
   padding-top: 10px;
   padding-left: 50px;
@@ -17,15 +8,15 @@
   font-size: 18px;
 }
 
-.preDelimiter{
+.preDelimiter {
   padding-top: 5px;
   font-size: 15px;
-  font-family: "Montserrat Light", sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
 }
 
-.afterDelimiter{
+.afterDelimiter {
   font-size: 15px;
   display: inline-block;
   padding-top: 5px;
-  font-family: "Montserrat Light", sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
 }
