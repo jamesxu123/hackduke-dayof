@@ -59,7 +59,6 @@ class TravelInfo extends React.Component {
                 linkText={'Squires Student Center'}
                 afterText={
                   <span>
-                    at 5:00 AM on Saturday.
                     <br />
                     <br />
                     <b>Itinerary</b>
@@ -72,7 +71,7 @@ class TravelInfo extends React.Component {
                     <b>Sunday, Oct.14 6PM: </b> Pick up from Duke <br />
                     <br />
                     Onsite contact:
-                    <b>Kareem Abdol-Hamid</b>
+                    <b> Kareem Abdol-Hamid</b>
                     <br />
                     Phone: <b>336-822-9360</b>
                     <br />
