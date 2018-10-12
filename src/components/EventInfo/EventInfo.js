@@ -47,6 +47,20 @@ class EventInfo extends React.Component {
                 linkText={'HACKDUKE-2018.DEVPOST.COM'}
                 url={'https://hackduke-2018.devpost.com/'}
               />
+              <EventInfoSection
+                header={'Hardware'}
+                text={
+                  'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'
+                }
+              />
+            </Col>
+            <Col md={6}>
+              <EventInfoSection
+                header={'Slack'}
+                text={'Slack will be used for communication during the event!'}
+                linkText={'Slack'}
+                url={'hackduke2018.slack.com'}
+              />
               <DelimitedStackedInfo
                 header={'Emergency Contacts'}
                 leftArray={[
@@ -79,20 +93,6 @@ class EventInfo extends React.Component {
                 ]}
                 rightColor={lighterGrey}
                 alignment={'center'}
-              />
-            </Col>
-            <Col md={6}>
-              <EventInfoSection
-                header={'Slack'}
-                text={'Slack will be used for communication during the event!'}
-                linkText={'Slack'}
-                url={'hackduke2018.slack.com'}
-              />
-              <EventInfoSection
-                header={'Hardware'}
-                text={
-                  'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'
-                }
               />
             </Col>
           </Row>
