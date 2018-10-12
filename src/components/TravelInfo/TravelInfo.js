@@ -34,9 +34,8 @@ class TravelInfo extends React.Component {
                 link={'https://goo.gl/maps/SJ1SxHYGAMn'}
                 linkText={'Duke Chemistry Lot'}
                 afterText={
-                  '. We will have a parking attendant from 7:30AM - 12:00PM \
-                           on Saturday, and 4:00PM - 8:00PM on Sunday. \
-                           If you will be arriving outside of those time windows, please let us know so we can make appropriate accommodations!'
+                  '. We will have a parking attendant from 8:00AM - 12:00PM on Saturday and Sunday. If you will be arriving outside of those time windows, please let us know so we can make appropriate accommodations! \
+                  Alternate parking is at the Bryan Center Parking Garage for $2/hr'
                 }
               />
 
@@ -54,10 +53,12 @@ class TravelInfo extends React.Component {
               <FAQItem
                 title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
-                link={'https://goo.gl/maps/voqDEqvHfKL2'}
-                linkText={'Newman Library'}
+                link={
+                  'https://www.google.com/maps/place/Squires+Student+Center,+Blacksburg,+VA+24061/@37.2295613,-80.4202095,17z/data=!3m1!4b1!4m5!3m4!1s0x884d95733ac1cb4d:0xf8d9c76521fc0952!8m2!3d37.229557!4d-80.4180208'
+                }
+                linkText={'Squires Student Center'}
                 afterText={
-                  ' at 5:45 AM Saturday morning. Our onsite contact is Swaraj Dhumne (703) 636-3348.'
+                  ' at 5:00 AM Saturday morning. Our onsite contact is Kareem Abdol-Hamid: 336-822-9360 (driver locator number: 10014).'
                 }
               />
             </Col>
