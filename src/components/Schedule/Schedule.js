@@ -4,7 +4,7 @@ import eventInfoClasses from 'components/EventInfo/EventInfo.scss';
 import ScheduleElement from 'components/ScheduleElement';
 import { Col, Row } from 'react-bootstrap';
 
-let data = [
+const data = [
   {
     // Months are zero-indexed for whatever reason
     // This is a historical artifact from the Java (yes, Java) APIs
@@ -156,6 +156,13 @@ let data = [
   }
 ];
 
+const formatDate = date => {
+  const dayOfWeek = date.toLocaleDateString('en-US', {
+    weekday: 'short'
+  });
+  return `${dayOfWeek} ${date.getMonth() + 1}/${date.getDate()}`;
+};
+
 class Schedule extends React.Component {
   render() {
     return (
@@ -172,7 +179,7 @@ class Schedule extends React.Component {
                       : classes.rightColumnContainer
                   }
                 >
-                  <div className={classes.dateHeader}>{date.toString()}</div>
+                  <div className={classes.dateHeader}>{formatDate(date)}</div>
                   <div className={classes.contentContainer}>
                     {events.map(({ time, name, locations }, index) => {
                       let [startTime, endTime] = time.split(' - ');
