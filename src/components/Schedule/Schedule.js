@@ -1,74 +1,201 @@
-import React from 'react'
-import classes from './Schedule.scss'
-import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
-import ScheduleElement from 'components/ScheduleElement'
-import { Col, Row } from 'react-bootstrap'
+import React from 'react';
+import classes from './Schedule.scss';
+import eventInfoClasses from 'components/EventInfo/EventInfo.scss';
+import ScheduleElement from 'components/ScheduleElement';
+import { Col, Row } from 'react-bootstrap';
 
-let satStartTimes = ['10:00 am -', '10:00 am -', '11:45 am -', '1:30 pm -', '1:30 pm -', '1:30 pm -', '1:30 pm -', '2:00 pm -', '2:15 pm -', '2:30 pm -', '2:30 pm -', '2:30 pm -', '3:30 pm -', '3:30 pm -', '3:30 pm -', '3:30 pm -', '4:00 pm -', '4:15 pm -', '5:00 pm -', '5:00 pm -', '5:00 pm -', '5:00 pm -', '6:15 pm -', '7:45 pm -', '7:45 pm -', '8:30 pm -', '9:00 pm -', '10:00 pm -']
-let satEndTimes = ['11:45 am ', '11:45 am ', '1:15 pm ', '2:30 pm ', '2:00 pm ', '2:00 pm ', '2:00 pm ', '3:00 pm ', '5:00 pm ', '3:30 pm ', '3:30 pm ', '3:15 pm ', '5:00 pm ', '4:00 pm ', '4:00 pm ', '4:00 pm ', '5:00 pm ', '5:00 pm ', '5:45 pm', '6:15 pm ', '6:00 pm ', '6:00 pm ', '7:45 pm ', '8:30 pm ', '8:30 pm ', '9:30 pm ', '12:00 am ', '11:00 pm ']
-let satTitles = ['Check-In', 'Lunch', 'Opening Ceremony', 'Inequality Track Talk', 'Education Track Talk', 'Energy/Environment Track Talk', 'Health/Wellness Track Talk', 'Team Formation/Ideation', 'Hedgehogs!', 'Duke eNable Workshop', 'Smartcar Tech Talk', 'Coinbase Tech Talk', 'Introduction to Connected Hardware (Duke Students only)', 'Appian React Workshop', 'Market Failures, Incentives, and Cryptoassets', 'Github Tech Talk #1 — Intro to Electron', 'Office Hours', 'ConsenSys Tech Talk - How to use Uport', 'Info Session with ConsenSys', 'Scavenger Hunt', 'Soft Skills That Matter Talk', 'Github Tech Talk #2 — Intro to Git', 'Dinner', 'Zoho Tech Talk', 'Microsoft Tech Talk', 'Female-Identifying/Non-binary Hackers Mixer (3D printing session followed by networking + desserts) Sponsored by ConsenSys', 'Frisbee', 'MLH Stack Cup']
-let satSpeakers = [null, null, null, null, null, null, null, null, null, null, null, null, null, 'Michael Deng', 'Dhruv Luthra', 'Shelley Vohr', 'Elissa Shevinsky', null, null, null, 'Salman Azhar — Duke Fuqua School of Business', 'Shelley Vohr', null, null, null, null, null, null]
-let satLocations = ['Schiciano Atrium', 'CIEMAS', 'Page Auditorium', 'Hudson 208', 'Schiciano A', 'Hudson 207', 'Schiciano B', 'Same Room as Track Talk', 'Quad', 'Innovation Colab', 'Hudson 115A', 'Hudson 232', 'Innovation Colab - TEC Classroom', 'Hudson 201', 'Hudson 216', 'Hudson 212', 'Hudson 115A', 'Hudson 222', 'Hudson 222', 'Meet in Schiciano Atrium', 'Hudson 216', 'Hudson 212', 'Schiciano Atrium', 'Hudson 212', 'Hudson 222', 'Innovation Colab - TEC Classroom', 'Equad', 'Schiciano']
-let satLinks = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
-let satLinkTitles = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
-
-let sunStartTimes = ['9:00 am -', '10:30 am -', '12:00 pm', '12:00 pm -', '1:30 pm', '1:45 pm -', '3:00 pm -', '4:30 pm -']
-let sunEndTimes = ['10:30 am ', '12:00 pm ', null, '1:30 pm ', null, '2:45 pm ', '4:00 pm ', '5:30 pm ']
-let sunTitles = ['Breakfast', 'Massage Therapists', 'Submissions Due to Devpost', 'Lunch', 'Hacking Ends', 'Expo 1 - Health and Education Tracks', 'Expo 2 - Inequality and Environment Tracks', 'Closing Ceremony']
-let sunSpeakers = [null, null, null, null, null, null, null, null]
-let sunLocations = ['Schiciano Atrium', 'CIEMAS', null, 'Schiciano Atrium', null, 'CIEMAS', 'CIEMAS', 'Page Auditorium']
+let data = [
+  {
+    // Months are zero-indexed for whatever reason
+    // This is a historical artifact from the Java (yes, Java) APIs
+    date: new Date(2018, 9, 13),
+    events: [
+      {
+        time: '9:00AM - 10:45AM',
+        name: 'Check-In',
+        locations: ['Schiciano Atrium']
+      },
+      {
+        time: '11:00AM - 12:30PM',
+        name: 'Opening Ceremony',
+        locations: ['Reynolds Theatre']
+      },
+      {
+        time: '1:00PM - 2:00PM',
+        name: 'Lunch',
+        locations: ['Schiciano Atrium']
+      },
+      { time: '2:00PM', name: 'Hacking Commences' },
+      {
+        time: '2:00PM - 2:30PM',
+        name: 'Team Formation Mixer',
+        locations: ['CIEMAS']
+      },
+      {
+        time: '2:00PM - 8:00PM',
+        name: 'Frisbee, Football, Volleyball',
+        locations: ['Harrington Quad']
+      },
+      {
+        time: '2:30PM - 3:30PM',
+        name: 'Arduino Workshop by August Ning',
+        locations: ['Hudson 201']
+      },
+      {
+        time: '2:30PM - 3:30PM',
+        name: 'VR Workshop by Mark Steelman',
+        locations: ['Hudson 232']
+      },
+      {
+        time: '3:00PM - 4:30PM',
+        name: 'Javascript Workshop by Co-Lab',
+        locations: ['Hudson 216']
+      },
+      {
+        time: '3:00PM - 5:00PM',
+        name: 'Puppies!!!!!',
+        locations: ['Harrington Quad']
+      },
+      {
+        time: '4:30PM - 5:30PM',
+        name: 'API Workshop by Archana Ahlawat',
+        locations: ['Hudson 115A']
+      },
+      {
+        time: '4:45PM - 6:15PM',
+        name: 'Mobile Workshop by Co-Lab',
+        locations: ['Hudson 216']
+      },
+      {
+        time: '6:30PM - 8:00PM',
+        name: 'Dinner',
+        locations: ['Schiciano Atrium']
+      },
+      {
+        time: '8:00PM - 9:00PM',
+        name: 'MLH Werewolf',
+        locations: ['CIEMAS 1st floor']
+      },
+      {
+        time: '9:00PM - 10:00PM',
+        name: 'Mixer for Female-Identifying and Non-Binary Hackers',
+        locations: ['Innovation Co-Lab']
+      },
+      {
+        time: '9:00PM - 10:00PM',
+        name: 'WIT Mixer',
+        locations: ['CoLab']
+      },
+      {
+        time: '10:00PM - 11:00PM',
+        name: 'Nerf War',
+        locations: ["Twinnie's 2nd Floor"]
+      },
+      {
+        time: '11:00PM - 11:45PM',
+        name: 'Spicy Noodle Challenge',
+        locations: ['Schiciano Atrium']
+      }
+    ]
+  },
+  {
+    date: new Date(2018, 9, 14),
+    events: [
+      {
+        time: '12:00AM - 8:00AM',
+        name: 'Midnight Snacks',
+        locations: ["Twinnie's"]
+      },
+      {
+        time: '9:00AM - 9:45AM',
+        name: 'Breakfast',
+        locations: ['Schiciano Atrium']
+      },
+      {
+        time: '11:00AM - 12:00PM',
+        name: 'Turning Hack into Startup by Kasper Kubica',
+        locations: ['Hudson 222']
+      },
+      {
+        time: '12:00PM - 1:30PM',
+        name: 'Lunch',
+        locations: ['Schiciano Atrium']
+      },
+      { time: '1:30PM', name: 'Hacking Ends' },
+      { time: '2:00PM', name: 'Judging Begins' },
+      {
+        time: '2:00PM - 2:45PM',
+        name: 'First Round Judging',
+        locations: ['CIEMAS Lobby']
+      },
+      {
+        time: '2:45PM - 3:30PM',
+        name: 'Finalist Demos',
+        locations: ['CIEMAS Lobby']
+      },
+      {
+        time: '3:30PM - 4:00PM',
+        name: 'Final Judging',
+        locations: ['CIEMAS Lobby']
+      },
+      {
+        time: '4:00PM',
+        name: 'HackDuke Ends'
+      },
+      {
+        time: '4:30PM - 5:30PM',
+        name: 'Closing Ceremony',
+        locations: ['Reynolds Theatre']
+      },
+      {
+        time: '6:00PM',
+        name: 'VTech Bus Leaves',
+        locations: ['Science Drive']
+      }
+    ]
+  }
+];
 
 class Schedule extends React.Component {
-
-  render () {
+  render() {
     return (
       <div>
         <div className={eventInfoClasses.container}>
-          <div className={eventInfoClasses.title}>
-            SCHEDULE
-          </div>
+          <div className={eventInfoClasses.title}>SCHEDULE</div>
           <Row>
-            <Col md={6}>
-              <div className={classes.leftColumnContainer}>
-                <div className={classes.dateHeader}>
-                  SAT 10/28
-                </div>
-                <div className={classes.contentContainer}>
-                  {satStartTimes.map((startTime, index) => {
-                    return <ScheduleElement startTime={startTime} key={index}
-                      endTime={satEndTimes[index]}
-                      title={satTitles[index]}
-                      location={satLocations[index]}
-                      speaker={satSpeakers[index]}
-                      link={satLinks[index]}
-                      linkTitle={satLinkTitles[index]} />
+            {data.map(({ date, events }, dayIndex) => (
+              <Col md={6} key={date}>
+                <div
+                  className={
+                    dayIndex === 0
+                      ? classes.leftColumnContainer
+                      : classes.rightColumnContainer
                   }
-                  )}
+                >
+                  <div className={classes.dateHeader}>{date.toString()}</div>
+                  <div className={classes.contentContainer}>
+                    {events.map(({ time, name, locations }, index) => {
+                      let [startTime, endTime] = time.split(' - ');
+                      startTime += ' -';
+                      return (
+                        <ScheduleElement
+                          startTime={startTime}
+                          key={index}
+                          endTime={endTime}
+                          title={name}
+                          location={locations && locations[0]}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
-            </Col>
-            <Col md={6}>
-              <div className={classes.rightColumnContainer}>
-                <div className={classes.dateHeader}>
-                  SUN 10/29
-                </div>
-                <div className={classes.contentContainer}>
-                  {sunStartTimes.map((startTime, index) => {
-                    return <ScheduleElement startTime={startTime} key={index}
-                      endTime={sunEndTimes[index]}
-                      title={sunTitles[index]}
-                      location={sunLocations[index]}
-                      speaker={sunSpeakers[index]} />
-                  }
-                  )}
-                </div>
-              </div>
-            </Col>
+              </Col>
+            ))}
           </Row>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Schedule
+export default Schedule;
