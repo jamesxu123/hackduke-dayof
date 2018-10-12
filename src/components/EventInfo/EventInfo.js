@@ -9,7 +9,10 @@ import {
   acceptedBlue,
   shirtPurple,
   shirtMaroon,
-  shirtBlue
+  shirtBlue,
+  navy,
+  berry,
+  lightblue
 } from 'extensions/colorUtils';
 
 class EventInfo extends React.Component {
@@ -29,13 +32,13 @@ class EventInfo extends React.Component {
               />
               <DelimitedStackedInfo
                 header={'Shirt Color Legend'}
-                leftArray={['purple: ', 'maroon: ', 'blue: ']}
+                leftArray={['Berry: ', 'Navy: ', 'Light-Blue: ']}
                 rightArray={[
-                  'organizers and volunteers',
-                  'sponsor/mentor',
-                  'hacker'
+                  'Organizers and Volunteers',
+                  'Sponsor/Mentor',
+                  'Hacker'
                 ]}
-                rightColors={[shirtPurple, shirtMaroon, shirtBlue]}
+                rightColors={[berry, navy, lightblue]}
                 // rightColor={shirtPink}
                 alignment={'center'}
               />
