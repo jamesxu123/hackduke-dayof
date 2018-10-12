@@ -1,56 +1,105 @@
-import React from 'react'
-import classes from './EventInfo.scss'
-import { Col, Row } from 'react-bootstrap'
-import EventInfoSection from 'components/EventInfoSection'
-import AlertBubble from 'components/AlertBubble'
-import DelimitedStackedInfo from 'components/DelimitedStackedInfo'
-import { lighterGrey, acceptedBlue, shirtPurple, shirtMaroon, shirtBlue } from 'extensions/colorUtils'
+import React from 'react';
+import classes from './EventInfo.scss';
+import { Col, Row } from 'react-bootstrap';
+import EventInfoSection from 'components/EventInfoSection';
+import AlertBubble from 'components/AlertBubble';
+import DelimitedStackedInfo from 'components/DelimitedStackedInfo';
+import {
+  lighterGrey,
+  acceptedBlue,
+  shirtPurple,
+  shirtMaroon,
+  shirtBlue
+} from 'extensions/colorUtils';
 
 class EventInfo extends React.Component {
-
-  render () {
+  render() {
     return (
       <div>
         <div className={classes.container}>
-          <div className={classes.title}>
-            EVENT INFO
-          </div>
+          <div className={classes.title}>EVENT INFO</div>
           <Row>
             <Col md={6}>
-              <DelimitedStackedInfo header={'WIFI INFORMATION'}
+              <DelimitedStackedInfo
+                header={'WIFI INFORMATION'}
                 leftArray={['ssid: ']}
                 rightArray={['HackDuke']}
                 rightColor={acceptedBlue}
-                alignment={'center'} />
-              <DelimitedStackedInfo header={'SHIRT COLOR LEGEND'}
+                alignment={'center'}
+              />
+              <DelimitedStackedInfo
+                header={'SHIRT COLOR LEGEND'}
                 leftArray={['purple: ', 'maroon: ', 'blue: ']}
-                rightArray={['organizers and volunteers', 'sponsor/mentor', 'hacker']}
+                rightArray={[
+                  'organizers and volunteers',
+                  'sponsor/mentor',
+                  'hacker'
+                ]}
                 rightColors={[shirtPurple, shirtMaroon, shirtBlue]}
                 // rightColor={shirtPink}
-                alignment={'center'} />
-              <EventInfoSection header={'DEVPOST'}
-                text={'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'}
+                alignment={'center'}
+              />
+              <EventInfoSection
+                header={'DEVPOST'}
+                text={
+                  'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'
+                }
                 linkText={'HACKDUKE-2018.DEVPOST.COM'}
-                url={'https://hackduke-2018.devpost.com/'} />
-              <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
-                leftArray={['911 ', '919-684-2444 ', '919-903-4030 ', '954-305-0146 ', '512-627-7127 ', '319-383-8274 ', '703-585-7204 ', '240-751-0359 ']}
-                rightArray={['| Duke Police (emergency)', '| Duke Police', '| Stephanie Ding', '| Steven Yang', '| Maya Messinger', '| Neil Wu', '| Carter Zenke', '| Edward Liang']}
+                url={'https://hackduke-2018.devpost.com/'}
+              />
+              <DelimitedStackedInfo
+                header={'EMERGENCY CONTACTS'}
+                leftArray={[
+                  '911 ',
+                  '919-684-2444 ',
+                  '410-428-2378 ',
+                  '615-524-0539 ',
+                  '512-627-7127 ',
+                  '512-578-8193 ',
+                  '703-332-9736 ',
+                  '224-501-6043 ',
+                  '908-938-8667 ',
+                  '919-768-3887 ',
+                  '609-903-5446 ',
+                  '919-903-4030 '
+                ]}
+                rightArray={[
+                  '| Duke Police (emergency)',
+                  '| Duke Police',
+                  '| Sam Chan',
+                  '| Margaret Overton',
+                  '| Maya Messinger',
+                  '| Akshara Anand',
+                  '| Christina Le',
+                  '| Grant Kim',
+                  '| Vicki Lu',
+                  '| Gina Lee',
+                  '| Nishant Iyengar',
+                  '| Stephanie Ding'
+                ]}
                 rightColor={lighterGrey}
-                alignment={'center'} />
+                alignment={'center'}
+              />
             </Col>
             <Col md={6}>
-              <EventInfoSection header={'Slack'}
+              <EventInfoSection
+                header={'Slack'}
                 text={'Slack will be used for communication during the event!'}
                 linkText={'Slack'}
-                url={'hackduke2018.slack.com'} />
-              <EventInfoSection header={'HARDWARE'}
-                text={'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'} />
+                url={'hackduke2018.slack.com'}
+              />
+              <EventInfoSection
+                header={'HARDWARE'}
+                text={
+                  'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'
+                }
+              />
             </Col>
           </Row>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default EventInfo
+export default EventInfo;
