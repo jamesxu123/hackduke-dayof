@@ -183,7 +183,7 @@ class Schedule extends React.Component {
                   <div className={classes.contentContainer}>
                     {events.map(({ time, name, locations }, index) => {
                       let [startTime, endTime] = time.split(' - ');
-                      startTime += ' -';
+                      if (endTime) startTime += ' -';
                       return (
                         <ScheduleElement
                           startTime={startTime}
