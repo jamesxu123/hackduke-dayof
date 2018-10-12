@@ -21,14 +21,14 @@ class EventInfo extends React.Component {
           <Row>
             <Col md={6}>
               <DelimitedStackedInfo
-                header={'WIFI INFORMATION'}
+                header={'Wi-Fi Information'}
                 leftArray={['ssid: ']}
                 rightArray={['HackDuke']}
                 rightColor={acceptedBlue}
                 alignment={'center'}
               />
               <DelimitedStackedInfo
-                header={'SHIRT COLOR LEGEND'}
+                header={'Shirt Color Legend'}
                 leftArray={['purple: ', 'maroon: ', 'blue: ']}
                 rightArray={[
                   'organizers and volunteers',
@@ -40,15 +40,15 @@ class EventInfo extends React.Component {
                 alignment={'center'}
               />
               <EventInfoSection
-                header={'DEVPOST'}
+                header={'Devpost'}
                 text={
-                  'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'
+                  'View prizes and submit your hacks to Devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'
                 }
                 linkText={'HACKDUKE-2018.DEVPOST.COM'}
                 url={'https://hackduke-2018.devpost.com/'}
               />
               <DelimitedStackedInfo
-                header={'EMERGENCY CONTACTS'}
+                header={'Emergency Contacts'}
                 leftArray={[
                   '911 ',
                   '919-684-2444 ',
@@ -89,7 +89,7 @@ class EventInfo extends React.Component {
                 url={'hackduke2018.slack.com'}
               />
               <EventInfoSection
-                header={'HARDWARE'}
+                header={'Hardware'}
                 text={
                   'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'
                 }
