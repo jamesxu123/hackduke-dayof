@@ -80,30 +80,26 @@ class EventInfo extends React.Component {
                   '919-684-2444 ',
                   '352-672-4465 ',
                   '410-428-2378 ',
+                  '609-903-5446 ',
                   '615-524-0539 ',
                   '512-627-7127 ',
                   '512-578-8193 ',
                   '703-332-9736 ',
                   '224-501-6043 ',
-                  '908-938-8667 ',
-                  '919-768-3887 ',
-                  '609-903-5446 ',
-                  '919-903-4030 '
+                  '908-938-8667 '
                 ]}
                 rightArray={[
                   '| Police (emergency)',
                   '| Duke Police',
                   '| Soomin Cho',
                   '| Sam Chan',
+                  '| Nishant Iyengar',
                   '| Margaret Overton',
                   '| Maya Messinger',
                   '| Akshara Anand',
                   '| Christina Le',
                   '| Grant Kim',
-                  '| Vicki Lu',
-                  '| Gina Lee',
-                  '| Nishant Iyengar',
-                  '| Stephanie Ding'
+                  '| Vicki Lu'
                 ]}
                 rightColor={lighterGrey}
                 alignment={'center'}
