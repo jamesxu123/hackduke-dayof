@@ -38,7 +38,7 @@ const data = [
       },
       {
         time: '2:30PM - 3:30PM',
-        name: 'Arduino Workshop by August Ning',
+        name: 'Intro to Hardware Hacking by August Ning',
         locations: ['Hudson 201']
       },
       {

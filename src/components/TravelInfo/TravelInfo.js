@@ -58,7 +58,26 @@ class TravelInfo extends React.Component {
                 }
                 linkText={'Squires Student Center'}
                 afterText={
-                  ' at 5:00 AM Saturday morning. Our onsite contact is Kareem Abdol-Hamid: 336-822-9360 (driver locator number: 10014).'
+                  <span>
+                    at 5:00 AM on Saturday.
+                    <br />
+                    <br />
+                    <b>Itinerary</b>
+                    <br />
+                    <b>Saturday, Oct.13 5AM: </b>
+                    Pick up from Squires Student Center
+                    <br />
+                    <b>Saturday, Oct.13 9AM: </b>
+                    Arrive at Duke <br />
+                    <b>Sunday, Oct.14 6PM: </b> Pick up from Duke <br />
+                    <br />
+                    Onsite contact:
+                    <b>Kareem Abdol-Hamid</b>
+                    <br />
+                    Phone: <b>336-822-9360</b>
+                    <br />
+                    Driver Locator Number: <b>10014</b>
+                  </span>
                 }
               />
             </Col>
