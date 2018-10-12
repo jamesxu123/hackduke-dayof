@@ -61,7 +61,9 @@ class TravelInfo extends React.Component {
                   <span>
                     <br />
                     <br />
-                    <b>Itinerary</b>
+                    <u>
+                      <b>Itinerary</b>
+                    </u>
                     <br />
                     <b>Saturday, Oct.13 5AM: </b>
                     Pick up from Squires Student Center
