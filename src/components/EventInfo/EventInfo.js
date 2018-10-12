@@ -59,7 +59,16 @@ class EventInfo extends React.Component {
                 header={'Slack'}
                 text={'Slack will be used for communication during the event!'}
                 linkText={'Slack'}
-                url={'hackduke2018.slack.com'}
+                url={
+                  'https://join.slack.com/t/hackduke2018/shared_invite/enQtNDQzNjYyNjU1MzAwLTRiOTU5NDkzZmMwMmU4YmE0OTY0ODU0ZjQyYmUwZjZiYmIyMGZjYmNmOGJlMjM3YWY1NmM3Mzc3ZTYwMGUzNGU '
+                }
+              />
+              <DelimitedStackedInfo
+                header={'Organizers'}
+                leftArray={['352-328-4522 ', '571-244-5849 ']}
+                rightArray={['| Christine Hwang', '| Sherry Feng']}
+                rightColor={shirtBlue}
+                alignment={'center'}
               />
               <DelimitedStackedInfo
                 header={'Emergency Contacts'}
@@ -75,7 +84,8 @@ class EventInfo extends React.Component {
                   '908-938-8667 ',
                   '919-768-3887 ',
                   '609-903-5446 ',
-                  '919-903-4030 '
+                  '919-903-4030 ',
+                  '352-672-4465 '
                 ]}
                 rightArray={[
                   '| Duke Police (emergency)',
@@ -89,7 +99,8 @@ class EventInfo extends React.Component {
                   '| Vicki Lu',
                   '| Gina Lee',
                   '| Nishant Iyengar',
-                  '| Stephanie Ding'
+                  '| Stephanie Ding',
+                  '| Soomin Cho'
                 ]}
                 rightColor={lighterGrey}
                 alignment={'center'}
