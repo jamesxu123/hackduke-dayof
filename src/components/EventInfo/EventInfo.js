@@ -29,9 +29,9 @@ class EventInfo extends React.Component {
                 // rightColor={shirtPink}
                 alignment={'center'} />
               <EventInfoSection header={'DEVPOST'}
-                text={'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/29. Hacking ends at 1:30 pm!'}
-                linkText={'HACKDUKE-2017.DEVPOST.COM'}
-                url={'https://hackduke-2017.devpost.com/'} />
+                text={'View prizes and submit your hacks to devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'}
+                linkText={'HACKDUKE-2018.DEVPOST.COM'}
+                url={'https://hackduke-2018.devpost.com/'} />
               <DelimitedStackedInfo header={'EMERGENCY CONTACTS'}
                 leftArray={['911 ', '919-684-2444 ', '919-903-4030 ', '954-305-0146 ', '512-627-7127 ', '319-383-8274 ', '703-585-7204 ', '240-751-0359 ']}
                 rightArray={['| Duke Police (emergency)', '| Duke Police', '| Stephanie Ding', '| Steven Yang', '| Maya Messinger', '| Neil Wu', '| Carter Zenke', '| Edward Liang']}
@@ -39,14 +39,10 @@ class EventInfo extends React.Component {
                 alignment={'center'} />
             </Col>
             <Col md={6}>
-              <EventInfoSection header={'Zoho'}
-                text={'Zoho will be used for communication during the event!'}
-                linkText={'Zoho'}
-                url={'https://www.zoho.com/cliq/'} />
-              <AlertBubble firstText={'Need mentorship during the event?'}
-                secondText={'Check out the '}
-                boldText={'mentor bot'}
-                thirdText={' in Zoho'} />
+              <EventInfoSection header={'Slack'}
+                text={'Slack will be used for communication during the event!'}
+                linkText={'Slack'}
+                url={'hackduke2018.slack.com'} />
               <EventInfoSection header={'HARDWARE'}
                 text={'Check out hardware at Twinnies across from the Fitzpatrick Atrium.'} />
             </Col>

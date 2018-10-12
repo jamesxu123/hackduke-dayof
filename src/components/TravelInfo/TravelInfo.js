@@ -49,28 +49,8 @@ class TravelInfo extends React.Component {
                 linkText={'Science Drive'}
                 afterText={' loop.'}
               />
-
-              <FAQItem
-                title={'Georgia Tech'}
-                beforeText={
-                  'The Georgia Tech coach bus will be leaving from the '
-                }
-                link={'https://goo.gl/maps/7bpgzg4oHW92'}
-                linkText={'Clough Undergrad Learning Commons'}
-                afterText={' at 2:40 AM Saturday morning.'}
-              />
             </Col>
             <Col md={6}>
-              <FAQItem
-                title={'University of Florida'}
-                beforeText={"We'll have a bus leaving from the "}
-                link={'https://goo.gl/maps/pBiG6EiMjrv'}
-                linkText={'UF commuter lot'}
-                afterText={
-                  ' at 12:15 AM Saturday morning. Our onsite contact is Eyal Abadi (305) 767-6640.'
-                }
-              />
-
               <FAQItem
                 title={'Virginia Tech'}
                 beforeText={'Our VT bus will leave from the '}
@@ -78,16 +58,6 @@ class TravelInfo extends React.Component {
                 linkText={'Newman Library'}
                 afterText={
                   ' at 5:45 AM Saturday morning. Our onsite contact is Swaraj Dhumne (703) 636-3348.'
-                }
-              />
-
-              <FAQItem
-                title={'University of Virginia'}
-                beforeText={'The UVA bus will be leaving from the '}
-                link={'https://goo.gl/maps/hRjmMgfUnN12'}
-                linkText={'Alderman library'}
-                afterText={
-                  ' at 2:45 AM Saturday morning. Our onsite contact is Frank Huang (571) 201-9700.'
                 }
               />
             </Col>

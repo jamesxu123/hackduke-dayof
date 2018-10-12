@@ -110,16 +110,6 @@ class NavMenu extends React.Component {
               onClick={this.handleClick}
               className={classes.linkElement}
               activeClassName={classes.activeLinkElement}
-              to={'/speakers'}
-            >
-              Speakers
-            </IndexLink>
-          </div>
-          <div className={classes.menuItem}>
-            <IndexLink
-              onClick={this.handleClick}
-              className={classes.linkElement}
-              activeClassName={classes.activeLinkElement}
               to={'/datasets'}
             >
               Datasets
