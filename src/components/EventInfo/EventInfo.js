@@ -57,10 +57,8 @@ class EventInfo extends React.Component {
                 }
                 linkText={'HackDuke Hardware List'}
                 url={'https://docs.google.com/spreadsheets/d/1pKfmQjRRivUj31LLhCCtFjtFKtM72YyAqEcmujEhw6o/edit?usp=sharing'}
-              />
-              <EventInfoSection
-                linkText={'MLH Hardware List'}
-                url={'https://hardware.mlh.io/events/hackduke-2018'}
+                linkText2={'MLH Hardware List'}
+                url2={'https://hardware.mlh.io/events/hackduke-2018'}
               />
             </Col>
             <Col md={6}>

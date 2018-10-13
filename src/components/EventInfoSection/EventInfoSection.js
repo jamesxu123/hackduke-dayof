@@ -9,8 +9,10 @@ class EventInfoSection extends React.Component {
     linkText: React.PropTypes.string.isRequired,
     url: React.PropTypes.string.isRequired
   }
-
+  
   render () {
+    var second_url = {};
+
     return (
       <div>
         <div className={classes.container}>
@@ -20,9 +22,14 @@ class EventInfoSection extends React.Component {
           <div className={classes.text}>
             {this.props.text}
           </div>
-          <a className={classes.link} href={this.props.url}>
-            {this.props.linkText}
-          </a>
+          <div className={classes.text}>
+            <a className={classes.link} href={this.props.url}>
+              {this.props.linkText}
+            </a>
+          </div>
+          {this.props.url2 && <a className={classes.link} href={this.props.url2}>
+            {this.props.linkText2}
+          </a>}
         </div>
       </div>
     )
