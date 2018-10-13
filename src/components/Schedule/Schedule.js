@@ -13,7 +13,7 @@ const data = [
       {
         time: '9:00AM - 10:45AM',
         name: 'Check-In',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       },
       {
         time: '11:00AM - 12:30PM',
@@ -23,13 +23,13 @@ const data = [
       {
         time: '1:00PM - 2:00PM',
         name: 'Lunch',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       },
       { time: '2:00PM', name: 'Hacking Commences' },
       {
         time: '2:00PM - 2:30PM',
         name: 'Team Formation Mixer',
-        locations: ['Schiciano Lobby']
+        locations: ['Schiciano Atrium']
       },
       {
         time: '2:00PM - 8:00PM',
@@ -69,12 +69,12 @@ const data = [
       {
         time: '6:30PM - 8:00PM',
         name: 'Dinner',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       },
       {
         time: '8:00PM - 9:00PM',
         name: 'MLH Werewolf',
-        locations: ['Schiciano Lobby']
+        locations: ['Schiciano Atrium']
       },
       {
         time: '9:00PM - 10:00PM',
@@ -89,7 +89,7 @@ const data = [
       {
         time: '11:00PM - 11:45PM',
         name: 'Spicy Noodle Challenge',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       }
     ]
   },
@@ -104,7 +104,7 @@ const data = [
       {
         time: '9:00AM - 9:45AM',
         name: 'Breakfast',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       },
       {
         time: '11:00AM - 12:00PM',
@@ -114,24 +114,24 @@ const data = [
       {
         time: '12:00PM - 1:30PM',
         name: 'Lunch',
-        locations: ['Schiciano Atrium']
+        locations: ['Schiciano Lobby']
       },
       { time: '1:30PM', name: 'Hacking Ends' },
       { time: '2:00PM', name: 'Judging Begins' },
       {
         time: '2:00PM - 2:45PM',
         name: 'First Round Judging',
-        locations: ['Schiciano Lobby']
+        locations: ['Schiciano Atrium']
       },
       {
         time: '2:45PM - 3:30PM',
         name: 'Finalist Demos',
-        locations: ['Schiciano Lobby']
+        locations: ['Schiciano Atrium']
       },
       {
         time: '3:30PM - 4:00PM',
         name: 'Final Judging',
-        locations: ['Schiciano Lobby']
+        locations: ['Schiciano Atrium']
       },
       {
         time: '4:00PM',
