@@ -135,13 +135,8 @@ export default [
         locations: ['Schiciano Lobby']
       },
       {
-        time: '2:45PM - 3:30PM',
-        name: 'Finalist Demos',
-        locations: ['Schiciano Lobby']
-      },
-      {
-        time: '3:30PM - 4:00PM',
-        name: 'Final Judging',
+        time: '2:00PM - 4:00PM',
+        name: 'Finalist Demos and Judging',
         locations: ['Schiciano Lobby']
       },
       {
