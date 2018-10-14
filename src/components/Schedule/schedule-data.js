@@ -136,7 +136,7 @@ export default [
       },
       {
         time: '2:00PM - 4:00PM',
-        name: 'Finalist Demos and Judging',
+        name: 'Judging and Demos',
         locations: ['Schiciano Lobby']
       },
       {
