@@ -11,7 +11,7 @@
 
 .header {
   font-size: $bodyFontSize;
-  color: $datasetHeaderGrey;
+  color: $dateGreen;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -34,7 +34,7 @@
 }
 
 .viewButton {
-  background-color: $viewButtonBlue;
+  background-color: $dateGreen;
   color: $viewTextWhite;
   font-size: $bodyFontSize;
   border-radius: 25px;

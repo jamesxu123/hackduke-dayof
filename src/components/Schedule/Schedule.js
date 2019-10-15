@@ -1,20 +1,20 @@
-import React from 'react';
-import classes from './Schedule.scss';
-import eventInfoClasses from 'components/EventInfo/EventInfo.scss';
-import ScheduleElement from 'components/ScheduleElement';
-import { Col, Row } from 'react-bootstrap';
+import React from 'react'
+import classes from './Schedule.scss'
+import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
+import ScheduleElement from 'components/ScheduleElement'
+import { Col, Row } from 'react-bootstrap'
 
-import data from './schedule-data';
+import data from './schedule-data'
 
 const formatDate = date => {
   const dayOfWeek = date.toLocaleDateString('en-US', {
     weekday: 'short'
-  });
-  return `${dayOfWeek} ${date.getMonth() + 1}/${date.getDate()}`;
-};
+  })
+  return `${dayOfWeek} ${date.getMonth()}/${date.getDate()}`
+}
 
 class Schedule extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <div className={eventInfoClasses.container}>
@@ -32,8 +32,8 @@ class Schedule extends React.Component {
                   <div className={classes.dateHeader}>{formatDate(date)}</div>
                   <div className={classes.contentContainer}>
                     {events.map(({ time, name, locations }, index) => {
-                      let [startTime, endTime] = time.split(' - ');
-                      if (endTime) startTime += ' -';
+                      let [startTime, endTime] = time.split(' - ')
+                      if (endTime) startTime += ' -'
                       return (
                         <ScheduleElement
                           startTime={startTime}
@@ -42,7 +42,7 @@ class Schedule extends React.Component {
                           title={name}
                           location={locations && locations[0]}
                         />
-                      );
+                      )
                     })}
                   </div>
                 </div>
@@ -51,8 +51,8 @@ class Schedule extends React.Component {
           </Row>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Schedule;
+export default Schedule
