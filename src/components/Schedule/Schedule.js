@@ -10,7 +10,8 @@ const formatDate = date => {
   const dayOfWeek = date.toLocaleDateString('en-US', {
     weekday: 'short'
   })
-  return `${dayOfWeek} ${date.getMonth()}/${date.getDate()}`
+  // date.getMonth()+1 to fix zero-indexing months
+  return `${dayOfWeek} ${date.getMonth()+1}/${date.getDate()}`
 }
 
 class Schedule extends React.Component {
