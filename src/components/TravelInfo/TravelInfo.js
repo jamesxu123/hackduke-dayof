@@ -71,13 +71,13 @@ class TravelInfo extends React.Component {
                     <b>Saturday, Nov.2 9:30AM: </b>
                     Arrive at Duke <br />
                     <b>Sunday, Nov.3 6PM: </b> Pick up from Duke <br />
-                    {/* <br />
+                    <br />
                     Onsite contact:
-                    <b> Kareem Abdol-Hamid</b>
+                    <b> Sindhu Ranga</b>
                     <br />
-                    Phone: <b>336-822-9360</b>
+                    Phone: <b>(571)-258-7059</b>
                     <br />
-                    Driver Locator Number: <b>10014</b> */}
+            
                   </span>
                 }
               />
