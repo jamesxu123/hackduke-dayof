@@ -1,5 +1,14 @@
 @import 'src/styles/base';
 
+.bottomImage {
+    background-image: url('components/NavMenu/bottom-path.svg');
+    background-size: cover;
+    width: $navMenuWidth;
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+}
+
 .navMenu {
   background-color: #0f1540;
   background-size: 100% 100%;
@@ -79,6 +88,10 @@
 }
 
 @media (min-width: $tabletBreakpoint) {
+  .bottomImage {
+      width: $desktopNavMenuWidth;
+  }
+
   .navMenu {
     width: $desktopNavMenuWidth;
     box-shadow: none;

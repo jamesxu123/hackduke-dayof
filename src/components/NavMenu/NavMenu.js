@@ -3,6 +3,11 @@ import classes from './NavMenu.scss';
 import { IndexLink } from 'react-router';
 import { tabletBreakpoint, navMenuWidth } from 'constants/design';
 
+
+
+import BottomPath from './bottom-path.svg';
+
+
 class NavMenu extends React.Component {
   constructor() {
     super();
@@ -115,6 +120,9 @@ class NavMenu extends React.Component {
               Datasets
             </IndexLink>
           </div>
+
+          <div className={classes.bottomImage}></div>
+
         </div>
       </div>
     );
