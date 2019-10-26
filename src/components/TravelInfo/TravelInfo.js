@@ -48,6 +48,15 @@ class TravelInfo extends React.Component {
                 linkText={'Science Drive'}
                 afterText={' loop.'}
               />
+              <FAQItem
+                title={'More Info'}
+                beforeText={
+                  'Click '
+                }
+                link={'https://docs.google.com/document/d/1eDC1KWeQbYIyWUWhvmuShvsEQsDjROv9GX-6wjDeg_4/edit'}
+                linkText={'here'}
+                afterText={' for more info.'}
+              />
             </Col>
             <Col md={6}>
               <FAQItem
