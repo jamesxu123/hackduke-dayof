@@ -32,14 +32,14 @@ class EventInfo extends React.Component {
               />
               <DelimitedStackedInfo
                 header={'Shirt Color Legend'}
-                leftArray={['tbd: ', 'Purple: ', 'Navy: ', 'Grey: ']}
+                leftArray={['Navy (Sweatshirts): ', 'Purple: ', 'Navy: ', 'Grey: ']}
                 rightArray={[
                   'Organizers',
                   'Volunteers',
                   'Sponsor/Mentor',
                   'Hacker'
                 ]}
-                rightColors={[berry, shirtPurple, navy, lighterGrey]}
+                rightColors={[navy, shirtPurple, navy, lighterGrey]}
                 // rightColor={shirtPink}
                 alignment={'center'}
               />
@@ -77,7 +77,7 @@ class EventInfo extends React.Component {
                 header={'Directors'}
                 leftArray={['410-428-2378 ', '908-938-8667 ']}
                 rightArray={['| Sam Chan', '| Vicki Lu']}
-                rightColor={shirtBlue}
+                rightColor={acceptedBlue}
                 alignment={'center'}
               />
               <DelimitedStackedInfo

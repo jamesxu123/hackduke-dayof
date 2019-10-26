@@ -8,7 +8,7 @@
 
 .title {
   font-size: 2.5em;
-  border-bottom: 6px solid #96cb96;
+  border-bottom: 6px solid #dc836f;
   text-align: center;
   display: inline-block;
   color: $headerDarkGray;
@@ -17,5 +17,5 @@
   transform: translateX(-50%); /* use self width which can be unknown */
   padding-bottom: 12px;
   margin-bottom: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
 }

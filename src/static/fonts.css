@@ -25,3 +25,17 @@
   font-weight: 700;
   src: url(/fonts/Larsseit-Medium.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/OpenSans-Regular.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/OpenSans-SemiBold.ttf) format('woff');
+}
