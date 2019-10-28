@@ -32,12 +32,12 @@ class EventInfo extends React.Component {
               />
               <DelimitedStackedInfo
                 header={'Shirt Color Legend'}
-                leftArray={['Navy (Sweatshirts): ', 'Navy: ', 'Purple: ', 'Grey: ']}
+                leftArray={['Organizers: ',
+                'Sponsor/Mentor: ',
+                'Volunteers: ',
+                'Hacker: ']}
                 rightArray={[
-                  'Organizers',
-                  'Sponsor/Mentor',
-                  'Volunteers',
-                  'Hacker'
+                  'Navy (Sweatshirts)', 'Navy', 'Purple', 'Grey'
                 ]}
                 rightColors={[navy, navy, shirtPurple, lighterGrey]}
                 // rightColor={shirtPink}
@@ -48,7 +48,7 @@ class EventInfo extends React.Component {
                 text={
                   'View prizes and submit your hacks to Devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'
                 }
-                linkText={'HACKDUKE-2019.DEVPOST.COM'}
+                linkText={'hackduke-2019.devpost.com/'}
                 url={'https://hackduke-2019.devpost.com/'}
               />
               <EventInfoSection
@@ -68,7 +68,7 @@ class EventInfo extends React.Component {
               <EventInfoSection
                 header={'Slack'}
                 text={'Slack will be used for communication during the event!'}
-                linkText={'Slack'}
+                linkText={'Click to join.'}
                 url={
                   'https://join.slack.com/t/hackdukecodef-xsb1992/shared_invite/enQtNzkzNjQ5MjM3MzYzLTc2MDY5M2ExNDkzOWFjMWRlM2M3ZjU5ZGFlZjIyNjY3N2IxNTA3NWZjMTllNGZjZjNmMDVhYmQzOTQwYzlhNzM'
                 }
