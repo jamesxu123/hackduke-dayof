@@ -10,7 +10,7 @@ class Datasets extends React.Component {
       <div>
         <div className={eventInfoClasses.container}>
           <div className={eventInfoClasses.title}>DATASETS</div>
-          <h3 className={classes.header}>ENERGY & ENVIRONMENT</h3>
+          <h3 className={classes.headerH}>ENERGY & ENVIRONMENT</h3>
           <Row>
             <Col md={6}>
               <div className={classes.leftColumnContainer}>
@@ -101,7 +101,7 @@ class Datasets extends React.Component {
               </div>
             </Col>
           </Row>
-          <h3 className={classes.header}>HEALTH & WELLNESS</h3>
+          <h3 className={classes.headerH}>HEALTH & WELLNESS</h3>
           <Row>
             <Col md={6}>
               <div className={classes.leftColumnContainer}>
@@ -259,7 +259,7 @@ class Datasets extends React.Component {
               </div>
             </Col>
           </Row>
-          <h3 className={classes.header}>INEQUALITY</h3>
+          <h3 className={classes.headerI}>INEQUALITY</h3>
           <Row>
             <Col md={6}>
               <div className={classes.leftColumnContainer}>
@@ -303,7 +303,7 @@ class Datasets extends React.Component {
               </div>
             </Col>
           </Row>
-          <h3 className={classes.header}>EDUCATION</h3>
+          <h3 className={classes.headerD}>EDUCATION</h3>
           <Row>
             <Col md={6}>
               <div className={classes.leftColumnContainer}>
