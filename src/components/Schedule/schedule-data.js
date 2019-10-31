@@ -160,40 +160,50 @@ export default [
       {
         time: '9:00AM - 10:45AM',
         name: 'Check-In',
-        locations: ['Schiciano Foyer']
+        locations: ['Schiciano Foyer'],
+        type: 'important'
       },
       {
         time: '11:00AM - 12:15PM',
         name: 'Opening Ceremony',
-        locations: ['Page Auditorium']
+        locations: ['Page Auditorium'],
+        type: 'important'
       },
       {
         time: '12:30PM - 1:00PM',
         name: 'Track Talks',
         locations: [
           'Scichiano A - Education, Scichiano B - Health, Hudson 207 - Energy, Hudson 208 - InequalityHudson 208 - Nonprofit'
-        ]
+        ],
+        type: 'event'
       },
       {
         time: '1:00PM - 2:00PM',
         name: 'Lunch',
-        locations: ['CIEMAS 1st Floor']
+        locations: ['CIEMAS 1st Floor'],
+        type: 'meal'
       },
-      { time: '2:00PM', name: 'Hacking Commences', locations: ['-'] },
+      { time: '2:00PM',
+        name: 'Hacking Commences',
+        type: 'important'
+      },
       {
         time: '2:00PM - 2:30PM',
         name: 'Team Formation Mixer',
-        locations: ['Schiciano Foyer']
+        locations: ['Schiciano Foyer'],
+        type: 'event'
       },
       {
         time: '2:00PM',
         name: 'Workshop Session 1',
-        locations: ['Hudson Hall, Room TBD']
+        locations: ['Hudson Hall, Room TBD'],
+        type: 'event'
       },
       {
         time: '3:00PM',
         name: 'Workshop Session 2',
-        locations: ['Hudson Hall, Room TBD']
+        locations: ['Hudson Hall, Room TBD'],
+        type: 'event'
       },
       {
         time: '3:00PM - 5:00PM',
@@ -208,17 +218,20 @@ export default [
       {
         time: '4:00PM',
         name: 'Workshop Session 3',
-        locations: ['Hudson Hall, Room TBD']
+        locations: ['Hudson Hall, Room TBD'],
+        type: 'event'
       },
       {
         time: '6:00PM - 7:00PM',
         name: 'Mixer for Female-Identifying and Non-Binary Hackers',
-        locations: ['Innovation Co-Lab']
+        locations: ['Innovation Co-Lab'],
+        type: 'event'
       },
       {
         time: '6:30PM - 8:00PM',
         name: 'Dinner',
-        locations: ['Schiciano Foyer']
+        locations: ['Schiciano Foyer'],
+        type: 'meal'
       },
       {
         time: '7:30PM - 8:00PM',
@@ -233,7 +246,8 @@ export default [
       {
         time: '9:00PM - 10:00PM',
         name: 'WIT Mixer',
-        locations: ['Location TBA']
+        locations: ['Location TBA'],
+        type: 'event'
       },
       {
         time: '10:00PM - 10:45PM',
@@ -253,59 +267,75 @@ export default [
       {
         time: '12:00AM - 8:00AM',
         name: 'Midnight Snacks',
-        locations: ["Twinnie's"]
+        locations: ["Twinnie's"],
+        type: 'meal'
       },
       {
         time: '12:00AM - 8:00AM',
         name: 'Nap Time',
-        locations: ['–']
+        locations: ['–'],
+        type: 'important'
       },
       {
         time: '9:00AM - 9:45AM',
         name: 'Breakfast',
-        locations: ['Schiciano Foyer']
+        locations: ['Schiciano Foyer'],
+        type: 'meal'
       },
       {
         time: '10:00AM - 12:00PM',
         name: 'Workshops',
-        locations: ['Locations TBA']
+        locations: ['Locations TBA'],
+        type: 'event'
       },
       {
         time: '12:00PM - 1:30PM',
         name: 'Lunch',
-        locations: ['Schiciano Foyer']
+        locations: ['Schiciano Foyer'],
+        type: 'meal'
       },
-      { time: '1:30PM', name: 'Hacking Ends', locations: ['-'] },
-      { time: '2:00PM', name: 'Judging Begins' },
+      { time: '1:30PM',
+        name: 'Hacking Ends',
+        type: 'important'
+      },
+      { time: '2:00PM',
+        name: 'Judging Begins',
+        type: 'important'
+      },
       {
         time: '2:00PM - 2:45PM',
         name: 'First Round Judging',
-        locations: ['CIEMAS Lobby']
+        locations: ['CIEMAS Lobby'],
+        type: 'event'
       },
       {
         time: '2:45PM - 3:30PM',
         name: 'Finalist Demos',
-        locations: ['CIEMAS Lobby']
+        locations: ['CIEMAS Lobby'],
+        type: 'event'
       },
       {
         time: '3:30PM - 4:00PM',
         name: 'Final Judging',
-        locations: ['CIEMAS Lobby']
+        locations: ['CIEMAS Lobby'],
+        type: 'event'
       },
       {
         time: '4:00PM',
         name: 'Judging Ends',
-        locations: ['–']
+        type: 'important'
       },
       {
         time: '4:30PM - 5:30PM',
         name: 'Closing Ceremony',
-        locations: ['Page Auditorium']
+        locations: ['Page Auditorium'],
+        type: 'important'
       },
       {
         time: '6:00PM',
-        name: 'Buses Leaves',
-        locations: ['Science Drive']
+        name: 'Buses Leave',
+        locations: ['Science Drive'],
+        type: 'important'
       }
     ]
   }

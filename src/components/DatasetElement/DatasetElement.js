@@ -20,7 +20,7 @@ class DatasetElement extends React.Component {
             <div className={classes.blurb}> {this.props.blurb} </div>
           </div>
           <div className={classes.viewButtonContainer}>
-            <a className={classes.viewButtonLink} target='_blank' href={this.props.url}><div className={classes.viewButton}>View</div></a>
+          <div className={classes.viewButton}><a className={classes.viewButtonLink} target='_blank' href={this.props.url}>View</a></div>
           </div>
         </div>
       </div>

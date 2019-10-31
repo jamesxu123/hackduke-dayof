@@ -61,7 +61,7 @@ class EventInfo extends React.Component {
                   'https://docs.google.com/spreadsheets/d/1ZnCMF760RlDXiO1NPSjxQOPmC73ggJVOgtJBBk4HkoY/edit'
                 }
                 linkText2={'MLH Hardware List'}
-                url2={'https://hardware.mlh.io/events/hackduke-2019'}
+                url2={'https://docs.google.com/document/d/1xyCXmpDmksU6Z-qj5B7hpU7Ued2kNNzzlfLf89e2oPE/edit'}
               />
             </Col>
             <Col md={6}>

@@ -120,6 +120,16 @@ class NavMenu extends React.Component {
               Datasets
             </IndexLink>
           </div>
+          <div className={classes.menuItem}>
+            <IndexLink
+              onClick={this.handleClick}
+              className={classes.linkElement}
+              activeClassName={classes.activeLinkElement}
+              to={'/otherresources'}
+            >
+              Other Resources
+            </IndexLink>
+          </div>
 
           <div className={classes.bottomImage}></div>
 

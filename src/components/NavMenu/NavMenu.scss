@@ -3,7 +3,8 @@
 .bottomImage {
     background-image: url('components/NavMenu/bottom-path.svg');
     background-size: cover;
-    width: $navMenuWidth;
+    // width: $navMenuWidth;
+    width: 0;
     height: 20vh;
     position: fixed;
     bottom: 0;

@@ -32,7 +32,7 @@ class Schedule extends React.Component {
                 >
                   <div className={classes.dateHeader}>{formatDate(date)}</div>
                   <div className={classes.contentContainer}>
-                    {events.map(({ time, name, locations }, index) => {
+                    {events.map(({ time, name, locations, type }, index) => {
                       let [startTime, endTime] = time.split(' - ')
                       if (endTime) startTime += ' -'
                       return (
@@ -42,6 +42,7 @@ class Schedule extends React.Component {
                           endTime={endTime}
                           title={name}
                           location={locations && locations[0]}
+                          type={type}
                         />
                       )
                     })}

@@ -8,12 +8,24 @@ class ScheduleElement extends React.Component {
     endTime: React.PropTypes.string.isRequired,
     title: React.PropTypes.string.isRequired,
     location: React.PropTypes.string.isRequired,
+    type: React.PropTypes.string.isRequired,
     speaker: React.PropTypes.string,
     link: React.PropTypes.string,
     linkTitle: React.PropTypes.string
   }
 
   render () {
+    var type;
+    if (this.props.type == 'meal') {
+        type = classes.meal;
+    } else if (this.props.type == 'important') {
+        type = classes.important;
+    } else if (this.props.type == 'event') {
+        type = classes.event;
+    } else {
+        type = classes.other;
+    }
+
     return (
       <div>
         <div className={classes.container}>
@@ -22,7 +34,9 @@ class ScheduleElement extends React.Component {
             <div className={classes.time}> {this.props.endTime} </div>
           </div>
           <div className={classes.infoContainer}>
-            <div className={classes.title}> {this.props.title} </div>
+            <div className={type}>
+                <div className={classes.title}> {this.props.title} </div>
+            </div>
             {this.props.link ? (
               <div className={classes.link}>
                 <a href={this.props.link}> {this.props.linkTitle} </a>

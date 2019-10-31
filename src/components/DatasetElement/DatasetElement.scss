@@ -11,7 +11,7 @@
 
 .header {
   font-size: $bodyFontSize;
-  color: $dateGreen;
+//   color: $dateGreen;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -34,13 +34,17 @@
 }
 
 .viewButton {
-  background-color: $dateGreen;
-  color: $viewTextWhite;
+  background-color: currentColor;
+//   color: $viewTextWhite;
   font-size: $bodyFontSize;
   border-radius: 25px;
   padding: 10px 25px;
   font-family: 'Open Sans';
   font-weight: bold;
+}
+
+.viewButtonLink {
+    color: $viewTextWhite;
 }
 
 .viewButtonLink,
@@ -49,6 +53,7 @@
 .viewButtonLink:visited,
 .viewButtonLink:link {
   text-decoration: none;
+  color: $viewTextWhite;
 }
 
 @media (min-width: $tabletBreakpoint) {

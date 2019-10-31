@@ -1,5 +1,21 @@
 @import 'src/styles/base';
 
+.meal {
+    color: #C06880;
+}
+
+.important {
+    color: #5052FF;
+}
+
+.event {
+    color: #E68560;
+}
+
+.other {
+    color: #2B9B99;
+}
+
 .container {
   padding-top: 30px;
   display: flex;
@@ -28,7 +44,7 @@
 }
 
 .title {
-  color: $dateGreen;
+//   color: $dateGreen;
   padding-bottom: 2px;
   font-weight: bold;
   font-size: 18px;

@@ -6,6 +6,7 @@ import DatasetsRoute from './Datasets'
 import TravelInfoRoute from './TravelInfo'
 import MapsRoute from './Maps'
 import SpeakersRoute from './Speakers'
+import OtherResources from './OtherResources'
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -20,7 +21,8 @@ export const createRoutes = (store) => ({
     DatasetsRoute(store),
     MapsRoute(store),
     TravelInfoRoute(store),
-    SpeakersRoute(store)
+    SpeakersRoute(store),
+    OtherResources(store)
   ]
 })
 
