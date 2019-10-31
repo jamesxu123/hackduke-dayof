@@ -2,8 +2,9 @@ import React from 'react';
 import classes from './OtherResources.scss';
 import datasetClasses from 'components/Datasets/Datasets.scss';
 import eventInfoClasses from 'components/EventInfo/EventInfo.scss';
+import DatasetElement2 from 'components/DatasetElement/DatasetElement2';
 import FAQItem from 'components/FAQItem';
-import DatasetElement from 'components/DatasetElement'
+import DatasetElement from 'components/DatasetElement/DatasetElement'
 import { Col, Row } from 'react-bootstrap';
 
 class TravelInfo extends React.Component {
@@ -24,7 +25,7 @@ class TravelInfo extends React.Component {
                         <FAQItem
                             title={'DUML Datathon'}
                             beforeText={"Duke Undergraduate Machine Learning is hosting a datathon this weekend, so be sure to check out some of their "}
-                            link={'https://dukeml.org/datathon/index.html'}
+                            link={'https://dukeml.org/datathon/index.html#workshops'}
                             linkText={'workshops'}
                             afterText={' too!'}
                         />
@@ -55,10 +56,10 @@ class TravelInfo extends React.Component {
                                 </div>
                                 <div className={datasetClasses.leftColumnContainer}>
                                     <div className={datasetClasses.contentContainer}>
-                                        <DatasetElement
+                                        <DatasetElement2
                                             header={'GSK Chatbot'}
                                             blurb={'Visit the table in CIEMAS to check it out and learn how to use it for your own chatbots!'}
-                                            url={'idk man'}
+                                            // url={'idk man'}
                                         />
                                     </div>
                                 </div>
