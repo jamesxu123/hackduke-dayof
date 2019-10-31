@@ -23,7 +23,7 @@ class EventInfoSection extends React.Component {
             {this.props.text}
           </div>
           <div className={classes.text}>
-            <a className={classes.link} href={this.props.url}>
+            <a className={classes.link} href={this.props.url} target="_blank">
               {this.props.linkText}
             </a>
           </div>

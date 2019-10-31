@@ -19,7 +19,7 @@ function generateTextWithLink (beforeText, link, linkText, afterText) {
   return (
     <div className={classes.sectionText}>
       {beforeText}
-      <a href={link} className={classes.link}>{linkText}</a>
+      <a href={link} className={classes.link} target="_blank">{linkText}</a>
       {afterText}
     </div>
   )
