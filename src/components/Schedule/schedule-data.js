@@ -194,15 +194,9 @@ export default [
         type: 'event'
       },
       {
-        time: '2:00PM',
-        name: 'Workshop Session 1',
-        locations: ['Hudson Hall, Room TBD'],
-        type: 'event'
-      },
-      {
-        time: '3:00PM',
-        name: 'Workshop Session 2',
-        locations: ['Hudson Hall, Room TBD'],
+        time: '2:00PM - 8:00PM',
+        name: 'Workshops',
+        locations: ['Hudson Hall, Various Rooms'],
         type: 'event'
       },
       {
@@ -216,14 +210,8 @@ export default [
         locations: ['Harrington Quad']
       },
       {
-        time: '4:00PM',
-        name: 'Workshop Session 3',
-        locations: ['Hudson Hall, Room TBD'],
-        type: 'event'
-      },
-      {
         time: '6:00PM - 7:00PM',
-        name: 'Mixer for Female-Identifying and Non-Binary Hackers',
+        name: 'Mixer for Female-Identifying and Non-Binary Hackers with Houzz',
         locations: ['Innovation Co-Lab'],
         type: 'event'
       },
@@ -242,12 +230,6 @@ export default [
         time: '8:00PM - 9:00PM',
         name: 'MLH Minigame',
         locations: ['CIEMAS 1st Floor']
-      },
-      {
-        time: '9:00PM - 10:00PM',
-        name: 'WIT Mixer',
-        locations: ['Location TBA'],
-        type: 'event'
       },
       {
         time: '10:00PM - 10:45PM',
@@ -298,32 +280,10 @@ export default [
         name: 'Hacking Ends',
         type: 'important'
       },
-      { time: '2:00PM',
-        name: 'Judging Begins',
-        type: 'important'
-      },
-      {
-        time: '2:00PM - 2:45PM',
-        name: 'First Round Judging',
-        locations: ['CIEMAS Lobby'],
+      { time: '2:00PM - 4:00PM',
+        name: 'Judging',
+        locations: ['CIEMAS 1st Floor & Schiciano Foyer'],
         type: 'event'
-      },
-      {
-        time: '2:45PM - 3:30PM',
-        name: 'Finalist Demos',
-        locations: ['CIEMAS Lobby'],
-        type: 'event'
-      },
-      {
-        time: '3:30PM - 4:00PM',
-        name: 'Final Judging',
-        locations: ['CIEMAS Lobby'],
-        type: 'event'
-      },
-      {
-        time: '4:00PM',
-        name: 'Judging Ends',
-        type: 'important'
       },
       {
         time: '4:30PM - 5:30PM',
