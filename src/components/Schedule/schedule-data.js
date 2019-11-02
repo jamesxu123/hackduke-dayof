@@ -173,7 +173,7 @@ export default [
         time: '12:30PM - 1:00PM',
         name: 'Track Talks',
         locations: [
-          'Scichiano A - Education, Scichiano B - Health, Hudson 207 - Energy, Hudson 208 - InequalityHudson 208 - Nonprofit'
+          'Scichiano A - Education, Scichiano B - Health, Hudson 207 - Energy, Hudson 208 - InequalityHudson 201 - Nonprofit'
         ],
         type: 'event'
       },
