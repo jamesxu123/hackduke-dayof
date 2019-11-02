@@ -44,12 +44,12 @@ class EventInfo extends React.Component {
                 alignment={'center'}
               />
               <EventInfoSection
-                header={'Workshop Information'}
+                header={'Workshop'}
                 text={
                   'See the following link for the workshop schedule!'
                 }
                 linkText={'Workshop Schedule'}
-                url={'https://docs.google.com/document/d/1r0KGbnmFC7hOTM_xsc_GCPiQXq8cb7lAvyJ1XZCFDMY/edit'}
+                url={'https://drive.google.com/file/d/1l7SNIw4WlFOFaxG0LQQMJCo79nTZ5FWn/view?usp=sharing'}
               />
               <EventInfoSection
                 header={'Devpost'}
