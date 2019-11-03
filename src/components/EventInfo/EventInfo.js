@@ -44,6 +44,14 @@ class EventInfo extends React.Component {
                 alignment={'center'}
               />
               <EventInfoSection
+                header={'Workshop'}
+                text={
+                  'See the following link for the workshop schedule!'
+                }
+                linkText={'Workshop Schedule'}
+                url={'https://drive.google.com/file/d/1l7SNIw4WlFOFaxG0LQQMJCo79nTZ5FWn/view?usp=sharing'}
+              />
+              <EventInfoSection
                 header={'Devpost'}
                 text={
                   'Hacking ends at 1:30 pm on Sunday, 11/3!'
