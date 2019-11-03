@@ -46,7 +46,7 @@ class EventInfo extends React.Component {
               <EventInfoSection
                 header={'Devpost'}
                 text={
-                  'View prizes and submit your hacks to Devpost by 12:00 pm on Sunday, 10/14. Hacking ends at 1:30 pm!'
+                  'Hacking ends at 1:30 pm on Sunday, 11/3!'
                 }
                 linkText={'hackduke-2019.devpost.com/'}
                 url={'https://hackduke-2019.devpost.com/'}
